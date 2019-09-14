@@ -1,0 +1,118 @@
+\title{AI first class}
+
+\documentclass[9pt]{article}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\begin{document}
+
+\maketitle
+To formalize or operationalize (informal problem description $\rightarrow$ formal problem description)
+Initial state to goal state.
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{problemstate.pdf_tex}
+	\caption{Problem solving state}
+	\label{fig:problemstate}
+\end{figure}
+
+For Above 8 puzzle problem,
+\begin{itemize}
+  \item States:
+
+  * A state descibes loacation of each 8 tiles.
+  \item Operators:
+
+  *Blank moves left, right up or down.
+  \item Goal test:
+
+  *State matches goal configuration
+  \item Path cost:
+
+  *Each step costs 1.
+\end{itemize}
+
+As one solve the above problem, it is equivlanent to view as going down the tree to reach goal state.
+We first construct a search tree, the branches are actions.
+
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{goaltree.pdf_tex}
+	\caption{goaltree}
+	\label{fig:goaltree}
+\end{figure}
+
+
+In this manner, Traveling Salesman problem can be described formally with above notations. We begin with starting country, and every node is other country visted.
+However, in Teaveling Salesman problem there may be node with same values. In \textbf{Graph Search}, we solve this problem by making another data structure that checks visited states.
+In general, we have
+\large{Infrastructire for search algorithm}
+
+\begin{itemize}
+  \item Child Node: takes parent node and action -> child node
+  \item solution function returns the sequence of actions obtained by following parent poitners back to the %incom
+  \item the frontier is shtored in \textbf{queue}. %incom
+  \item explored nodes are stored in hash table %incom
+\end{itemize}
+
+For search alogirithms, we have :
+\huge{Evalutaion criteria}
+\begin{enumerate}
+  \item Completeness: is it guaranteed to find a solution?
+  \item Optimality: does it find the optimal solution?
+  \item Time Complexity: ?
+  \item Space Complexity: ?
+\end{enumerate}
+Some expressions to describle graph is:
+\begin{itemize}
+  \item b: the branching factor or maximum number of successor of any node
+  \item d: depth (smallest goal node)
+  \item m: maximum length (of search tree)
+\end{itemize}
+\section{Search}
+
+There are about two kind of Search:
+\begin{itemize}
+  \item Uninformed search
+  \item Informed search (this is more likely to be seen as "AI")
+\end{itemize}
+
+\subsection{Uninformed Search}
+\subsubsection{BFS}
+Expand the shallowest unexpandede nde in frontier.
+
+Time Complexity: $1+b+b^2+b^3+...+b^{d}$
+
+BFS has exponential time complexity!! very bad.
+
+\subsubsection{Uniform cost search}
+
+
+
+IT expand the least - cost unexpandede node on the frontier rather than shallowest node.
+Make a priority queue, ordered by path cost (allows redundant path if better than old)
+It finds the least-cost -optimal path overall.
+Time complexity is reduced just by little.
+
+\subsubsection{DFS}
+Expands the deepest unexpanded node int he frontier.
+
+\subsubsection{Depth limited search}
+Equal to the DFS with depth limit $l$
+Nodes at depth $l$ has no successors.
+This does not have the completness guaranteed, yet, Once one have a idea of diameter, we
+
+
+\subsubsection{Iterative deepeinig Search}
+Evalutaion: Optimal and complete like breadth-first, and requires modest memory like depth first. however we see that
+
+
+
+
+\end{document}

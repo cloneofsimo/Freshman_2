@@ -1,0 +1,75 @@
+\title{DataStructure}
+
+\documentclass[9pt]{article}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\begin{document}
+\section{Stack}
+
+\maketitle
+This is a famous example of using STACK as a DataStructure, mainly, Evaluation of different expressions.
+
+\begin{itemize}
+  \item infix
+  a/b-c+d*e-a*c
+  \item postfix
+  ab/c-de*+ac*-
+  \item prefix
+  -+-/abc*de*ac
+\end{itemize}
+
+\subsection{Evaluate Prefix Expression Using Stack}
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{pfex.pdf_tex}
+
+	\label{fig:pfex}
+\end{figure}
+
+Take every element to the stack, and evaluate whenever operation comes.
+
+\section{Queue}
+
+Queue has FIFO structure, that is, first element that got in get to go out first.
+\begin{itemize}
+    \item \textbf{Objects} : a finite ordered list of elements
+    \item Functions
+  \begin{itemize}
+    \item Queue Create(max size)
+    \item Boolean IsFull(Queue *Q)
+    \item Boolean IsEmpty(Queue *Q)
+    \item Boolean Add(Queue *Q, Element)
+    \item Boolean Delete(Queue *Q, Element)
+  \end{itemize}
+  \item null
+\end{itemize}
+
+\begin{verbatim}
+  Queue Create(100)
+  typedef struct{
+    int item[100];
+    int float = -1;
+    int rear = -1
+  } Queue;
+  Queue Q;
+  Isfull(&Q);
+\end{verbatim}
+
+\begin{verbatim}
+
+boolean Is Full(Queue *pQ){
+return (pQ-> rear == 99);
+}
+
+boolean IsEmpty(Queue *pQ){
+return()
+}
+\end{verbatim}
+
+\end{document}
