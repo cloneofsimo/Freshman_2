@@ -6,6 +6,13 @@
 \usepackage{transparent}
 \usepackage{float}
 \usepackage{tabularx,environ,amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
 
 
 \newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
@@ -84,7 +91,30 @@ Meanwhile, it is valuable to ask the following question: How many functions from
 \end{cases}
 \]
 
-It is pretty clear that injective function is as above, bijective function is non - existence (unless $k = n$, in that case, the answer is $k!$), so it is our interest to
+It is pretty clear that injective function is as above, bijective function is non - existence (unless $k = n$, in that case, the answer is $k!$), so it is our interest to calculate the number of surjective functions.
+
+\textbf{The idea is to consider the inverse image of each element in $Y$. It can be seen as set partition of $X$, and allowing permutation within the partitions.} Just like that, we have the following theorem.
+
+\begin{theorem}[Number of Surjective Functions]
+  The number of surjective functions from $X = [n]$ to $Y = [k]$ is $k!S(n,k)$.
+\end{theorem}
+ Again, proof is talaaeftr. (trivial and left as an exercise for the reader)
+ More theorems are here.
+\begin{theorem} We have for all $n,m\in \mb{N}$,
+\[
+S(m,n) = \sum_{j=0}^{m-1} \binom{m-1}{j} S(j,n-1)
+\]
+\end{theorem}
+\begin{proof}
+  We will view the partition of $[m]$ by considering the position of element $m$ and the size of the set that has it. Without loss of generality, let $m \in A_1$ and $|A_1| = m -j-1$. But now see that the left case for the specific assumption that we had above is simply partitioning $j$ elements into $n-1$ sets. It is quite obvious that therefore it is left to choose $m-j-1$ elements from $m-1$ elements.
+
+\end{proof}
+
+\begin{theorem}
+\[
+n^m = \sum_{j=0}^{n} S(m,j)(n)_j
+\]
+\end{theorem}
 
 
 \end{document}

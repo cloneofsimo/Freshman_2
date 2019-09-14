@@ -81,6 +81,17 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def
 INPUT EnumerativeCombinatorics.aux
 INPUT EnumerativeCombinatorics.aux
 OUTPUT EnumerativeCombinatorics.aux
@@ -153,6 +164,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT EnumerativeCombinatorics.pdf
 INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT EnumerativeCombinatorics.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -162,4 +174,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
