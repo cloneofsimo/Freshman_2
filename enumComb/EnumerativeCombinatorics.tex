@@ -7,6 +7,7 @@
 \usepackage{float}
 \usepackage{tabularx,environ,amsmath,amssymb}
 
+
 \newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
 \newcommand{\dsp}{\displaystyle}
 \newcommand{\mdp}[1]{\left(\text{mod }{#1}\right)}
@@ -17,7 +18,7 @@
 
 \author{Simo Ryu \\ cloneofsimo@gmail.com}
 
-\date{Korea University --- \today}
+\date{Korea University, \texttt{MATH464} --- \today}
 
 \begin{document}
 \maketitle
@@ -36,7 +37,52 @@ A_i \cap A_j \neq \phi \text{ for all $i,j$}
   A_1 \cup A_2 \cup A_3 \cdots \cup A_n = S
 \end{equation}
 
-\textbb{exercise) } In how many ways can you make partition of $S = {1,2,3,4}$ ?
+\textbf{exercise} In how many ways can you make partition of $S = \{1,2,3,4\}$ ?
+
+Definition: Stirling number of second kind
+$$S(n,k) = S_{n,k}  = \text{\# of partitions of $S$ (with $|S|$ = n) into $k$ parts}$$
+It isn't enough to just make trivial cases with words, therefore:
+\begin{align*}
+  S(0,0) &= 0 \\
+  S(0,k) &= 0 \\
+  S(n,k) &= 0 \text{ for $(k>n)$}
+\end{align*}
+
+By simply brute force, one can make the following simple table for Sterling's 2nd number.
+\begin{center}
+  \begin{tabular}{c|c c c c c}
+    $n,k$ & 0 & 1 & 2 & 3 & 4 \\
+    \hline
+    0 & 1 \\
+    1 & 0 & 1 \\
+    2 & 0 & 1 & 1 \\
+    3 & 0 & 1 & 3 & 1\\
+    4 & 0 & 1 & 2 & 6 & 1 \\
+
+  \end{tabular}
+\end{center}
+
+Meanwhile, for \textbf{ordinary} binomial coefficients, we have the \textbf{Pascal's Identity}
+\[
+\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}
+\]
+The analogous equation for Stirling's 2nd number is as follows;
+\[
+S(n,k) = S(n-1,k-1) + kS(n-1,k)
+\]
+The proof is pretty simple. Just casework either if element 1 is "alone" or not. Left as trivial
+
+Meanwhile, it is valuable to ask the following question: How many functions from $X = [n]$ to $Y = [k] $ are there? The answers can vary as the condition of functions are undefined. If we simply count all the functions, it is obviously $k^n$. But how many injective functions are there? The answer is exactly same as the definition of \textbf{falling factorial}.
+
+\begin{description}
+  \item[Falling Factorial $(k)_n$ is :]
+\end{description}
+\[
+\begin{cases}
+  k(k-1)(k-2)(k-3) \cdots (k-(n-1)) &\text{if } k \geq n \\
+  0 &\text{if } k \leq n
+\end{cases}
+\]
 
 
 
