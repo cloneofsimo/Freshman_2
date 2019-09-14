@@ -1,0 +1,228 @@
+\documentclass[12pt]{article}
+\usepackage{setspace}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+\usepackage{tabularx,environ,amsmath,amssymb}
+
+%  % Include the file specifying the document structure and custom commands
+% \rhead{LP@SSHS}
+% \lhead{LP formulation of optimization problems}
+% %----------------------------------------------------------------------------------------
+% %	ASSIGNMENT INFORMATION
+
+\newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\mdp}[1]{\left(\text{mod }{#1}\right)}
+\newcommand{\ind}[2]{\text{ind}_{#2}{#1}}
+\newcommand{\mb}{\mathbb}
+
+
+%\theoremstyle{definition}
+%\newtheorem{claim}{Claim}
+%\newtheorem{thm}{Theorem}
+%\newtheorem{lemma}[thm]{Lemma}
+%----------------------------------------------------------------------------------------
+
+\title{MFMC and it's variation} % Title of the assignment
+
+\author{Simo Ryu\\ \texttt{cloneofsimo@gmail.com}} % Author name and email address
+
+\date{LP@SSHS --- \today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+\maketitle % Print the title
+
+\section{What is it? Why should you care?}
+
+It all begins with a simple question. Suppose that you've succesfully learned MaxFlowMinCut theory. Why should you care? Why would it even matter to you? Under assumption that you are a programmer, or computer scientist, this question is almost meaninglessly self evident, as MaxFlowMinCut theory is not only a simple theory, it's also a framework of idea itself. Think about it as learning the concept of function. It itself has so little meaning, untill it becomes a form of real life problem. This is called "reduction" of problems, where one problem can be thought of another and vice versa.
+
+Here are some examples from Princeton. [Pr]
+\begin{itemize}
+  \item Network connectivity
+  \item Bipartite matching
+  \item Data mining
+  \item Open-pit mining
+  \item Airline scheduling
+  \item Image processing
+  \item etc etc...
+\end{itemize}
+
+Examples speak louder than words.
+
+\section{Grasping the Idea of Max Flow}
+Let's start with the following problem.
+
+\begin{tabularx}{\textwidth}{@{\hspace{\parindent}} l X c}
+   \multicolumn{2}{@{\hspace{\parindent}}l}{\textbf{Project selection problem}} \\% Title
+   \textbf{Input:} & Set $P$ of projects, Project $i$ has revenue of $p_i$
+
+   -Some projects generate money, others require money.
+
+   -Some projects have "dependencies", i.e. require other projects beforehand to get them done.\\% Input
+   \textbf{Question:} & Ok. given all the data of projects, how do would we choose these projects, to maximize revenue?% Question
+ \end{tabularx}
+
+You begin to realize that this almost seemingly has nothing to do with flows in classic physical way. But we will formalize later on, and they will make sense.
+First off, what do we mean by "Flow"? In general,
+\begin{itemize}
+  \item Static beings, You, people, projects, etc..(Nodes)
+  \item Fluid beings, Data, objects, etc.. (Flows)
+\end{itemize}
+Take this idea further, and let's define vertices and directed edges in classic graph theoric sense.
+
+We define set of vertices $V=\{s,t,u_1,u_2,... \}$ and set of directed edges $E = \{e_1 = (u_1,u_2), e_2 = (u_1,u_3), ...\}$ Then, we will define \textbf{Capacity function} and \textbf{Flow function} each $c:E\rightarrow \mathbb{R}$ $f:E\rightarrow \mathbb{R}$ where basically we are \textbf{assigning values to these edges} that implies \textbf{how much this can hold, and how much flow it has}.
+
+Notice that in set $V$, we have element $s$ and $t$, they each represent \textbf{Source of the flow} and \textbf{Sink of the flow}. See where we are headed?
+
+Following directed graph has 5 vertices, and 8 directed edges.
+
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gr1.pdf_tex}
+	\caption{Directed Graph with Source(s) and Sink(t)}
+	\label{fig:gr1}
+\end{figure}
+
+Moreover, let's assign capacity of the edges. Ususally capacities are "given", in the sense that one only has to concern about flow of the network.
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gr2.pdf_tex}
+	\caption{Graph with given capacity values}
+	\label{fig:gr2}
+\end{figure}
+
+We would expect two things from flow function.
+\begin{itemize}
+  \item Conservation of flow (that is, sum of all flow into a vertex should be equal to sum of all flow out of the vertex.)
+  \item Bounded by capacity ($c(e)\leq f(e)$ for all $e\in E$ (except, obviously, for $s$ and $t$.))
+  \item Skew symmetry ($f(x,y)=-f(y,x)$ for vertices $x,y$)
+\end{itemize}
+
+Idealy we want to generalize notion of $f(e),c(e)$ into much general form, so we define the following.
+$$f(X,Y)=\sum_{v\in X, u\in Y}f(x,y), X,Y \subset V$$
+vice versa for capacity.
+In such way, we can define the flow of the network as $|f| = f(s,V)$. From condition of conservation of flows, we expect
+$f(s,V) = f(V,t)$
+ and indeed, this is true. (proof as exersise)
+Alright, now the main problem is this.
+
+\begin{tabularx}{\textwidth}{@{\hspace{\parindent}} l X c}
+   \multicolumn{2}{@{\hspace{\parindent}}l}{\textbf{Max Flow Problem}} \\% Title
+   \textbf{Input:} & Directed Graph $G$, with capacity function $c$. \\% Input
+   \textbf{Question:} & How would we set the function $f$, so that the flow of the graph $|f|$ is \texttt{maximized?} % Question
+ \end{tabularx}
+
+This is the killer problem. Before we cover how we will make the algorithmic choices to maximize the flow, we have to trigger another problem.
+
+\section{Minimum Cut}
+
+\subsection{ST cut}
+What is a "ST cut"? Well, ST cut is simply partition of set $V$ into two subset $S, T$, that $s\in S$ and $t \in T$ is satisfied. In other words, you are making "source" side of a network, and "sink" side of a network.
+
+Now, given network $G$ and ST cut $S,T$, \textbf{capacity of a ST cut} is defined as follows.
+
+$$c(S,T) = \text{sum of all capacities of edges leaving S to T}$$
+
+In the following example, we have $S = \{s, u_1, u_2 \}$ and $T=\{t, u_3\}$
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gr3.pdf_tex}
+	\caption{Network with ST cut}
+	\label{fig:gr3}
+\end{figure}
+
+Using the above definition, we can simply calculate $c(S,T)$ by adding all the capacities from $S$ to $T$.
+$$c(S,T) = c(s,u_3)+c(u_1,u_3)+c(u_2,t)=34$$
+Obviouly we see that $x$ element of $c(x,y)$ is always from source $S$, and $y$ element is always from $T$. Here we see that flow is not mentioned. Now we are ready for the next big problem.
+
+\begin{tabularx}{\textwidth}{@{\hspace{\parindent}} l X c}
+   \multicolumn{2}{@{\hspace{\parindent}}l}{\textbf{Min Cut Problem}} \\% Title
+   \textbf{Input:} & Directed Graph $G$, with capacity function $c$. \\% Input
+   \textbf{Question:} & How would we make a ST cut of $G$, that capcity of the ST cut is \texttt{minimized?} % Question
+ \end{tabularx}
+
+\subsection{Observations}
+
+First thing first, we realize that once we have a cut, the capacity of the cut is self evidently greater or equal to the flow of the network. because... well it's not so self evident, so we'll prove by next two step.
+
+$$|f| = f(S,T)$$
+
+$$f(S,T) \leq c(S,T)$$
+
+and (obviously) as exercises to the readers.
+
+Now as we see, hence all ST cut's capacity is greater or equal to all possible flows, minimum ST cut is also greater or equal to maximum flow, thus we have the following inequality.
+
+$$\max |f| \leq \min c(S,T)$$
+
+Surprisingly, above equality holds for some $f$ and some ST cut, regardless of the given network $G$. This is called \textbf{Max Flow Min Cut Theorem}.
+
+\section{Residual Network and Ford-Fulkerson algorithm}
+
+To prove the Max Flow Min Cut Theorem, we need to know bout \textbf{Residual Network}.
+\subsection{Residual Network}
+Let $f$ be a flow on $G$. The residual network $G_f$ is a network with same vertices, but different edges: each defined to be
+$$c_f(u,v) = c(u,v) - f(u,v) $$
+As always, if the capacity is not positive, we do not express it in the graph.  Instead, by above definition, both $c_f(u,v),c_f(v,u)$ have a possibility to become positive. In that case, we mark them both in the Network. Therefore in general, residual network do not meet the skew symmetry condition.
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gr4.pdf_tex}
+	\caption{Network of $G = (\{s,t,u_1,u_2\},E)$ and $f$}
+	\label{fig:gr4}
+\end{figure}
+
+As an example, in the above case, we have Graph $G$ and flow $f$ ready and setup. Each edge has $x/y$ where $x$ is current flow, and $y$ is capacity of the edge.
+
+Now using the above network, we can define the Residual network of $G$ and $f$.
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gr5.pdf_tex}
+	\caption{Residual Network of $G$ and $f$}
+	\label{fig:gr5}
+\end{figure}
+You can see that here, we only have capacities in a sense that, we never talk about any kindof flows within the Residual network \texttt{Yet}. Also you can check that the name "residual" is almost self evident. If there are values on edges within this residual graph, the origianl graph is capable of "accepting" more flows within the flow $f$. Taking this argument further, we can deduce that any kindof path connecting $s$ to $t$ within the residual network will imply that that path can be smoothly added to the original graph with current flow. Thus, taking the flow closer to MaxFlow state. One can then vaguely suspect that once no more paths can be added, the flow is indeed Maxflow. Indeed, this is the case.
+\subsection{Ford-Fulkerson, and proof of MaxFlowMinCut}
+
+Taking above argument to more formal form, we define "augmenting path of $G$ and $f$" as "path that connects $s$ to $t$ within $G_f$". Then it is left to prove the following 3 statements as equivalences.
+
+\begin{enumerate}
+  \item $|f|=c(S,T)$ for some ST cut
+  \item $f$ is maxflow.
+  \item $f$ admits no augmenting path.
+\end{enumerate}
+
+We've already kinda proved 1 to 2 and 2 to 3, so we are left with 3 to 1. The proof goes something like this.
+\begin{enumerate}
+  \item First think about all the residual network of $f$, and since they have no path from $s$ to $t$, from $s$, where would following any path lead?
+  \item Now that you've thought about connected components of $G_f$, notice that part that has $s$ can be viewed as $S$, therefore making ST Cut.
+  \item There is no path from $S$ to $T$. That means capacity is all full of flows. Thus $|f|=c(S,T)$!
+\end{enumerate}
+Now, finding augmenting path in Bruth force manner obviously takes infinite time. finding path in BFS? sure. $O(E)$ time.
+But now just think about the following "famous" graph.
+
+\begin{figure}[ht]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gr6.pdf_tex}
+	\caption{Not-so-good graph for just BFS Ford Fulkerson}
+	\label{fig:gr6}
+\end{figure}
+
+Just how many iterations will there be? Well, if we just asuume the worst case senario, we are talking about 40000 iterations, and we don't want that.
+In this case, every path finding step was exteremly simple, but we are having ridiculously many iterations due to the wild "gap" between minimum capacity and maximum capacity of edges. In this case the algorithm could possiblily take $O(Ef)$ time. We really don't want that. Next time we'll talk about Edmond-Karp and finally, the problem of Project Selection.
+\end{document}
