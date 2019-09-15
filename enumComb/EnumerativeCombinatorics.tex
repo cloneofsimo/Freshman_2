@@ -13,7 +13,7 @@
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
-
+\newtheorem*{example}{Example}
 
 \newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
 \newcommand{\dsp}{\displaystyle}
@@ -110,11 +110,36 @@ S(m,n) = \sum_{j=0}^{m-1} \binom{m-1}{j} S(j,n-1)
 
 \end{proof}
 
+As one can see, when talking about functions, surjective or injective, one has to talk about \textbf{falling factorials, exponentials and Stirling's 2nd numbers}. This all comes down to following beautiful theorem:
 \begin{theorem}
 \[
 n^m = \sum_{j=0}^{n} S(m,j)(n)_j
 \]
 \end{theorem}
 
+\begin{example}[case for 2, 3]
+
+\begin{align*}
+x^2 &= S(2,0) + S(2,1)x + S(2,2)x(x-1) \\
+x^3 &= S(3,0) + S(3,1)x + S(3,2)x(x-1) + S(3,3)x(x-1)(x-2)
+\end{align*}
+
+\end{example}
+
+We will prove the case for $m\geq n$. As we've already mentioned, analogy of functions are necessary to prove this formula.
+\begin{proof}
+  $LHS := \text{number of functions from [m] to [n]}$
+
+$RHS$:
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{func1.pdf_tex}
+	\caption{Function from $[m]$ to $[n]$ goes to $J\subset Y$}
+	\label{fig:func1}
+\end{figure}
+Here, $|J| = j$, and per every choice of $j$, there are $j! \binom{n}{j}$ choices. Per every set $J$, there are $S(m,j)$ choices of surjective functions.
+Therefore per every $j$, there are $S(m,j) (n)_j$ many functions.
+\end{proof}
 
 \end{document}

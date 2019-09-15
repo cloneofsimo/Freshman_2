@@ -1,4 +1,4 @@
-PWD C:/Users/SimoRyu/Documents/Freshman_2/enumComb
+PWD C:/Users/Simo/Documents/Freshman_2/enumComb
 INPUT c:/texlive/2019/texmf.cnf
 INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -165,6 +165,14 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT EnumerativeCombinatorics.pdf
 INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./figures/func1.pdf_tex
+INPUT ./figures/func1.pdf_tex
+INPUT ./figures/func1.pdf
+INPUT ./figures/func1.pdf
+INPUT ./figures/func1.pdf
+INPUT ./figures/func1.pdf
+INPUT ./figures/func1.pdf
+INPUT ./figures/func1.pdf
 INPUT EnumerativeCombinatorics.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
