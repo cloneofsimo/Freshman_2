@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  11 SEP 2019 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  18 SEP 2019 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -341,35 +341,111 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-) (./POM_3.aux)
+) (c:/texlive/2019/texmf-dist/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
+ (c:/texlive/2019/texmf-dist/tex/latex/kotex-utf/kotex.cfg) (c:/texlive/2019/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
+Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
+ (c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks37
+\inpenc@posthook=\toks38
+) (c:/texlive/2019/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+\unih@ngulpoint=\count121
+\dhucs@emph@raise=\dimen157
+)
+Now handling font encoding LUC ...
+... processing UTF-8 mapping file for font encoding LUC
+ (c:/texlive/2019/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
+File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+3001 (decimal 12289)
+   defining Unicode char U+3002 (decimal 12290)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+300A (decimal 12298)
+   defining Unicode char U+300B (decimal 12299)
+   defining Unicode char U+300C (decimal 12300)
+   defining Unicode char U+300D (decimal 12301)
+   defining Unicode char U+300E (decimal 12302)
+   defining Unicode char U+300F (decimal 12303)
+   defining Unicode char U+3010 (decimal 12304)
+   defining Unicode char U+3011 (decimal 12305)
+   defining Unicode char U+3014 (decimal 12308)
+   defining Unicode char U+3015 (decimal 12309)
+   defining Unicode char U+3016 (decimal 12310)
+   defining Unicode char U+3017 (decimal 12311)
+   defining Unicode char U+3018 (decimal 12312)
+   defining Unicode char U+3019 (decimal 12313)
+   defining Unicode char U+301A (decimal 12314)
+   defining Unicode char U+301B (decimal 12315)
+   defining Unicode char U+FF01 (decimal 65281)
+   defining Unicode char U+FF08 (decimal 65288)
+   defining Unicode char U+FF09 (decimal 65289)
+   defining Unicode char U+FF0C (decimal 65292)
+   defining Unicode char U+FF0E (decimal 65294)
+   defining Unicode char U+FF1A (decimal 65306)
+   defining Unicode char U+FF1B (decimal 65307)
+   defining Unicode char U+FF1C (decimal 65308)
+   defining Unicode char U+FF1D (decimal 65309)
+   defining Unicode char U+FF1E (decimal 65310)
+   defining Unicode char U+FF1F (decimal 65311)
+   defining Unicode char U+FF3B (decimal 65339)
+   defining Unicode char U+FF3D (decimal 65341)
+   defining Unicode char U+FF5B (decimal 65371)
+   defining Unicode char U+FF5D (decimal 65373)
+   defining Unicode char U+FF61 (decimal 65377)
+   defining Unicode char U+FF62 (decimal 65378)
+   defining Unicode char U+FF63 (decimal 65379)
+   defining Unicode char U+FF64 (decimal 65380)
+   defining Unicode char U+FF65 (decimal 65381)
+)
+\@josa=\count122
+\josatoks=\toks39
+ (c:/texlive/2019/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+))) (./POM_3.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `POM_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 15.
+ (c:/texlive/2019/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
 \AtBeginShipoutBox=\box48
  (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen157
+\scratchcounter=\count123
+\scratchdimen=\dimen158
 \scratchbox=\box49
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen158
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks38
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen159
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks41
 ) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -411,56 +487,449 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (1.74977pt too wide) in paragraph at lines 32--33
+Overfull \hbox (1.74977pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
- (./figures/test.pdf_tex
-<./figures/test.pdf, id=4, page=1, 446.70827pt x 287.37285pt>
-File: ./figures/test.pdf Graphic file (type pdf)
-<use ./figures/test.pdf, page 1>
-Package pdftex.def Info: ./figures/test.pdf , page1 used on input line 57.
-(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
-) (./figures/BCG.pdf_tex
-<./figures/BCG.pdf, id=5, page=1, 446.70827pt x 287.37285pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+ (./figures/BCG.pdf_tex
+<./figures/BCG.pdf, id=4, page=1, 446.70827pt x 287.37285pt>
 File: ./figures/BCG.pdf Graphic file (type pdf)
 <use ./figures/BCG.pdf, page 1>
 Package pdftex.def Info: ./figures/BCG.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 390.0pt x 250.90248pt.
 ) [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (22.94885pt too high) has occurred while \output is active []
-
- [2 <./figures/test.pdf> <./figures/BCG.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/BCG.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [3] [4] [5] [6]
-<img/picawine.png, id=33, 293.095pt x 293.095pt>
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/BCG.pdf>] [3] [4] [5] [6]
+<img/picawine.png, id=31, 293.095pt x 293.095pt>
 File: img/picawine.png Graphic file (type png)
 <use img/picawine.png>
-Package pdftex.def Info: img/picawine.png  used on input line 265.
+Package pdftex.def Info: img/picawine.png  used on input line 254.
 (pdftex.def)             Requested size: 370.49881pt x 370.49573pt.
- [7] [8 <./img/picawine.png>] (./POM_3.aux) ) 
+ [7] (./figures/consumerMotivation.pdf_tex
+<./figures/consumerMotivation.pdf, id=37, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/consumerMotivation.pdf Graphic file (type pdf)
+<use ./figures/consumerMotivation.pdf, page 1>
+Package pdftex.def Info: ./figures/consumerMotivation.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/consumerMotivation.pdf, id=38, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/consumerMotivation.pdf Graphic file (type pdf)
+<use ./figures/consumerMotivation.pdf, page 2>
+Package pdftex.def Info: ./figures/consumerMotivation.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+) [8 <./img/picawine.png>] [9 <./figures/consumerMotivation.pdf> <./figures/consumerMotivation.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/consumerMotivation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<img/soju.png, id=48, 192.72pt x 262.9825pt>
+File: img/soju.png Graphic file (type png)
+<use img/soju.png>
+Package pdftex.def Info: img/soju.png  used on input line 308.
+(pdftex.def)             Requested size: 370.49881pt x 505.57472pt.
+ [10] [11 <./img/soju.png>]
+Overfull \hbox (2.46945pt too wide) in paragraph at lines 319--320
+[]\OT1/cmr/m/n/12 Physiological vari-able $\OMS/cmsy/m/n/12 ! []$\OT1/cmr/m/n/12 Values, per-son-al-ity traits, mo-ti-va-tion, lifestyle 
+ []
+
+[12] [13]
+./POM_3.tex:414: Misplaced alignment tab character &.
+<argument> How do you deal with that? Wedel &
+                                              Kamakura's
+l.414 ...o you deal with that? Wedel & Kamakura's}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+(./figures/mseapr.pdf_tex
+<./figures/mseapr.pdf, id=63, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/mseapr.pdf Graphic file (type pdf)
+<use ./figures/mseapr.pdf, page 1>
+Package pdftex.def Info: ./figures/mseapr.pdf , page1 used on input line 59.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/mseapr.pdf, id=64, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/mseapr.pdf Graphic file (type pdf)
+<use ./figures/mseapr.pdf, page 2>
+Package pdftex.def Info: ./figures/mseapr.pdf , page2 used on input line 64.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+) [14] [15 <./figures/mseapr.pdf> <./figures/mseapr.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/mseapr.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (4.34158pt too wide) in paragraph at lines 478--479
+[]\OT1/cmr/m/n/12 Structural con-di-tion (com-pe-ti-tion dif-fi-culty, threat of al-ter-na-tives, power
+ []
+
+./POM_3.tex:507: Undefined control sequence.
+l.507 {\Huge \textf
+                   {Marketing Myopia}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16]
+./POM_3.tex:531: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.531 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+(./figures/pmap.pdf_tex
+<./figures/pmap.pdf, id=79, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/pmap.pdf Graphic file (type pdf)
+<use ./figures/pmap.pdf, page 1>
+Package pdftex.def Info: ./figures/pmap.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+
+./figures/pmap.pdf_tex:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/pmap.pdf_tex:57: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./figures/pmap.pdf_tex:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/pmap.pdf_tex:57: Missing } inserted.
+<inserted text> 
+                }
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<./figures/pmap.pdf, id=80, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/pmap.pdf Graphic file (type pdf)
+<use ./figures/pmap.pdf, page 2>
+Package pdftex.def Info: ./figures/pmap.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+./figures/pmap.pdf_tex:59: Missing $ inserted.
+<inserted text> 
+                $
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/pmap.pdf_tex:59: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./figures/pmap.pdf_tex:59: Missing $ inserted.
+<inserted text> 
+                $
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/pmap.pdf_tex:59: Missing } inserted.
+<inserted text> 
+                }
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<./figures/pmap.pdf, id=81, page=3, 446.70827pt x 287.37285pt>
+File: ./figures/pmap.pdf Graphic file (type pdf)
+<use ./figures/pmap.pdf, page 3>
+Package pdftex.def Info: ./figures/pmap.pdf , page3 used on input line 60.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+./figures/pmap.pdf_tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/pmap.pdf_tex:61: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./figures/pmap.pdf_tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/pmap.pdf_tex:61: Missing } inserted.
+<inserted text> 
+                }
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [17] [18 <./figures/pmap.pdf> <./figures/pmap.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/pmap.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/pmap.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/pmap.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<img/mds.png, id=91, 1491.5725pt x 627.34375pt>
+File: img/mds.png Graphic file (type png)
+<use img/mds.png>
+Package pdftex.def Info: img/mds.png  used on input line 577.
+(pdftex.def)             Requested size: 370.49881pt x 155.82086pt.
+ (./figures/oqpp.pdf_tex
+<./figures/oqpp.pdf, id=92, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/oqpp.pdf Graphic file (type pdf)
+<use ./figures/oqpp.pdf, page 1>
+Package pdftex.def Info: ./figures/oqpp.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+
+./figures/oqpp.pdf_tex:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/oqpp.pdf_tex:57: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./figures/oqpp.pdf_tex:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/oqpp.pdf_tex:57: Missing } inserted.
+<inserted text> 
+                }
+l.57 ...h{\begin{tabular}[t]{l}P_1\end{tabular}}}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<./figures/oqpp.pdf, id=93, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/oqpp.pdf Graphic file (type pdf)
+<use ./figures/oqpp.pdf, page 2>
+Package pdftex.def Info: ./figures/oqpp.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+./figures/oqpp.pdf_tex:59: Missing $ inserted.
+<inserted text> 
+                $
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/oqpp.pdf_tex:59: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./figures/oqpp.pdf_tex:59: Missing $ inserted.
+<inserted text> 
+                $
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/oqpp.pdf_tex:59: Missing } inserted.
+<inserted text> 
+                }
+l.59 ...h{\begin{tabular}[t]{l}P_2\end{tabular}}}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<./figures/oqpp.pdf, id=94, page=3, 446.70827pt x 287.37285pt>
+File: ./figures/oqpp.pdf Graphic file (type pdf)
+<use ./figures/oqpp.pdf, page 3>
+Package pdftex.def Info: ./figures/oqpp.pdf , page3 used on input line 60.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+./figures/oqpp.pdf_tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/oqpp.pdf_tex:61: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./figures/oqpp.pdf_tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./figures/oqpp.pdf_tex:61: Missing } inserted.
+<inserted text> 
+                }
+l.61 ...h{\begin{tabular}[t]{l}P_3\end{tabular}}}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [19 <./img/mds.png>] [20 <./figures/oqpp.pdf> <./figures/oqpp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/oqpp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/oqpp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/oqpp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [21] (./figures/plc.pdf_tex
+<./figures/plc.pdf, id=117, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/plc.pdf Graphic file (type pdf)
+<use ./figures/plc.pdf, page 1>
+Package pdftex.def Info: ./figures/plc.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/plc.pdf, id=118, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/plc.pdf Graphic file (type pdf)
+<use ./figures/plc.pdf, page 2>
+Package pdftex.def Info: ./figures/plc.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+) [22]
+./POM_3.tex:688: Misplaced alignment tab character &.
+l.688 Entering Stage : Create AW &
+                                   trial
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:690: Misplaced alignment tab character &.
+l.690 Mature Stage: Max profit &
+                                 MS
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:702: Misplaced alignment tab character &.
+l.702 		\item Hard to predic "which stage" &
+                                             "how long"
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[23 <./figures/plc.pdf> <./figures/plc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/plc.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./POM_3.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 12877 strings out of 492609
- 251516 string characters out of 6132819
- 304976 words of memory out of 5000000
- 16523 multiletter control sequences out of 15000+600000
- 9933 words of font info for 36 fonts, out of 8000000 for 9000
+ 13338 strings out of 492609
+ 259356 string characters out of 6132819
+ 315543 words of memory out of 5000000
+ 16927 multiletter control sequences out of 15000+600000
+ 14324 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,17n,73p,828b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on POM_3.pdf (8 pages, 266720 bytes).
+ 54i,15n,73p,828b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7
+.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
+Output written on POM_3.pdf (23 pages, 1134955 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 190 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

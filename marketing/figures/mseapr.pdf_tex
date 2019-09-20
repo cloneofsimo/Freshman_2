@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'test.pdf' (pdf, eps, ps)
+%% Accompanies image file 'mseapr.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,7 +53,14 @@
   \begin{picture}(1,0.6433121)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.19747303,0.49198019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}hi. this is test.\\yes.\\THIS. IS.\\\reversecount\\\\\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{test.pdf}}%
+    \put(0.11435585,0.5139995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"A priori" Market seg\end{tabular}}}}%
+    \put(0.22269296,0.41649603){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}vs\end{tabular}}}}%
+    \put(0.13843077,0.31417769){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}"a posterior" Market seg\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{mseapr.pdf}}%
+    \put(0.60066918,0.42853357){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}* How many standards?\end{tabular}}}}%
+    \put(0.60066918,0.35630866){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}* How many level of seg?\end{tabular}}}}%
+    \put(0.60066918,0.23954549){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}* How many segs are there?\end{tabular}}}}%
+    \put(0.20102554,0.07583599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\large Did you know this beforehand?r\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{mseapr.pdf}}%
   \end{picture}%
 \endgroup%

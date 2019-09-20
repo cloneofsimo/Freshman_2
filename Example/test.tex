@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage{setspace}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+\usepackage{tabularx,environ,amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem*{example}{Example}
+
+\newcommand{\ee}[1]{$e^{#1}$}
+\newcommand{\ra}{$\rightarrow$}
+\newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\mdp}[1]{\left(\text{mod }{#1}\right)}
+\newcommand{\ind}[2]{\text{ind}_{#2}{#1}}
+\newcommand{\mb}{\mathbb}
+
+\begin{document}
+
+My name is Simo Ryu
+{\tiny This is large.}
+Dangerous Poisons:
+\begin{center}
+  This is centered text.
+\end{center}
+\begin{itemize}
+  \item CUS04
+  \item posion
+\end{itemize}
+
+\begin{itemize}
+  \item cuSo4
+  \item ffafaf
+\end{itemize}
+$e^{n^2}$
+\ee{n^2}
+\[
+\int_{0}^{1} e^x \sin x dx
+\]
+hi
+\[
+\sum_{k=0}^{n} k^2 = \frac{n(n+1)(2n+1)}{6} a_{n^2} \lim_{n \rightarrow \infty}
+\]
+\begin{center}
+\begin{itemize}
+  \item 112
+
+
+\end{itemize}
+\end{center}
+
+\begin{center}
+  \begin{itemize}
+    \item Tasgagf
+  \end{itemize}
+
+\end{center}
+
+\noindent
+Is
+$\rightarrow$ \ra
+\begin{tabular}{|c|c|}
+  \hline
+  hi & my name is \\
+  \hline
+  Simo & Ryu \\
+  \hline
+\end{tabular}
+
+\begin{equation}
+  e^x
+\end{equation}
+Simo
+\begin{align*}
+S(0,0) &= 0 \\
+S(0,k) &= 0 \\
+S(n,k) &= 0  (k>n)
+\end{align*}
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{pictureofCat.pdf_tex}
+	\caption{pictureofCat}
+	\label{fig:pictureofCat}
+\end{figure}
+\end{document}

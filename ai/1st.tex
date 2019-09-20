@@ -1,11 +1,27 @@
-\title{AI first class}
-
-\documentclass[9pt]{article}
+\documentclass[12pt]{article}
+\usepackage{setspace}
 \usepackage{import}
 \usepackage{xifthen}
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{float}
+\usepackage{tabularx,environ,amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem*{example}{Example}
+
+\newcommand{\ee}[1]{$e^{#1}$}
+\newcommand{\ra}{$\rightarrow$}
+\newcommand{\leg}[2]{\left(\frac{#1}{#2}\right)}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\mdp}[1]{\left(\text{mod }{#1}\right)}
+\newcommand{\ind}[2]{\text{ind}_{#2}{#1}}
+\newcommand{\mb}{\mathbb}
 
 \begin{document}
 
@@ -112,6 +128,48 @@ This does not have the completness guaranteed, yet, Once one have a idea of diam
 \subsubsection{Iterative deepeinig Search}
 Evalutaion: Optimal and complete like breadth-first, and requires modest memory like depth first. however we see that
 
+
+\section{informed Search}
+\subsection{informed Search Stratagies}
+\[
+f(n) = h(n)+ g(n)
+\]
+$n$ is a node.
+$f(n)$ : distance thorough node to goal (based on problems -specific knowldege)
+
+$h(n)$: Heuristic function : it is estimated cost of the cheapest path from node to the goal.
+
+$g(n)$: path cost from the start node to $n$.
+
+\subsection{Greedy Best- first Search}
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{gbfs.pdf_tex}
+	\caption{Greedy Best - first Search}
+	\label{fig:gbfs}
+\end{figure}
+
+This is like always searching from "presumably best position".
+
+\begin{example}[Arad to Buda]
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{arbu.pdf_tex}
+	\caption{Example}
+	\label{fig:arbu}
+\end{figure}
+
+However this search can make infinite loops.
+\subsection{Uniform Cost Search}
+$f(n) = g(n)$ . Expand frontier.
+
+\subsection{A* Algorithm}
+Finally, $f(n) = g(n) + h(n)$.
+
+\end{example}
 
 
 
