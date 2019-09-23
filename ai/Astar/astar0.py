@@ -1,17 +1,7 @@
 from collections import defaultdict
 
-# def convert(list):
-#
-#     # Converting integer list to string list
-#     s = [str(i) for i in list]
-#
-#     # Join list items using join()
-#     res = int("".join(s))
-#
-#     return(res)
 
-# Driver code
-def printasinf(vect):
+def stateasint(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
     for x in range(9):
@@ -20,7 +10,7 @@ def printasinf(vect):
                 arr.append(y)
     return arr
 
-def inttostring(vect):
+def inttostate(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
     for x in range(9):
@@ -68,37 +58,61 @@ def switch1(vector):
             list.append(swap(rector, pos0, ras))
     return list
 
+def h1(vector):
+    ordered = "abcdefghi"
+    value =0
+    for x in range(9): #for a~ i
+        posalp =0  #position of alphabet
+        for pos in range(9): #find the position of ordered[x]
+            if ordered[x] == vector[pos]:
+                posalp = pos
+        posalpy = posalp//3
+        orialpy = x//3
+        posalpx = posalp%3
+        orialpx = x%3
+        value = value + abs(posalpx-orialpx) + abs(posalpy-orialpy)
+    return value
+
+
+
 
 
 class Graph:
     def __init__(self,inistate):
         self.inistate = inistate
+    def lds(self):
         self.visited = defaultdict(int)
         self.sedges = defaultdict(str)
-    def dfs(self):
-
+        priory = defaultdict(int)
+        depth = 1
         stack = []
-
         stack.append(self.inistate)
-        self.visited["".join(self.inistate)] = 1
+        inistr="".join(self.inistate)
+        self.visited[inistr] = 1
+        priory[inistr] = h1(inistr) + depth
 
         ordered = ['a','b','c','d','e','f','g','h','i']
         while stack:
-            currentstate = stack.pop() #Only difference with bfs
-            # swith is wrong...
+            cs = min(priory.keys(), key=(lambda k: priory[k]))
+            currentstate = list(cs)
+            del priory[cs]
             for nextstate in switch1(currentstate):
                 snxt = "".join(nextstate)
+                scru = "".join(currentstate)
                 if self.visited[snxt] == 0:
 
-                    print("hi")
+                    print(depth)
                     print(snxt)
                     stack.append(nextstate)
-                    self.visited[snxt] = 1
-                    self.sedges[snxt] = "".join(currentstate)
+                    self.visited[snxt] = self.visited[scru]+1
+                    self.sedges[snxt] = scru
+                    depth = self.visited[snxt]
+                    priory[snxt] = depth + h1(snxt)
                     if issamelist(ordered,nextstate):
-                        return self.showsteps(nextstate)
+                        self.showsteps(nextstate)
+                        return True
 
-        return print(ordered)
+        return False
 
     def showsteps(self, state):
         step = 0
@@ -107,15 +121,22 @@ class Graph:
         while issamelist(parentstate,self.inistate)==False:
             succ = self.sedges["".join(parentstate)]
             parentstate = succ
+            print(stateasint(succ))
             step = step + 1
         return print(step)
-            # print(self.edges)
-            # pasttake = self.edges[pasttake]
+
+    def ids(self):
+        found = False
+        n = 1
+        while found == False:
+            found = self.lds(n)
+            n = n+1
 
 
 
-
+node1 = [1,2,0,4,5,3,6,7,8]
 node2 = [7,2,4,5,0,6,8,3,1]
-g = Graph(inttostring(node2))
-print(inttostring(node2))
-g.dfs()
+print(h1("badcefghi"))
+g = Graph(inttostate(node2))
+print(inttostate(node1))
+g.lds()

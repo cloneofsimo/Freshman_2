@@ -119,6 +119,6 @@ class Graph:
 
 
 
-node2 = [7,2,4,5,0,6,8,3,1]
+node2 = [1,2,0,4,5,3,6,7,8]
 g = Graph(inttostring(node2))
 g.bfs()

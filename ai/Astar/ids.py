@@ -11,7 +11,7 @@ from collections import defaultdict
 #     return(res)
 
 # Driver code
-def printasinf(vect):
+def stateasint(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
     for x in range(9):
@@ -20,7 +20,7 @@ def printasinf(vect):
                 arr.append(y)
     return arr
 
-def inttostring(vect):
+def inttostate(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
     for x in range(9):
@@ -75,30 +75,33 @@ class Graph:
         self.inistate = inistate
         self.visited = defaultdict(int)
         self.sedges = defaultdict(str)
-    def dfs(self):
-
+    def lds(self,n):
+        self.visited = defaultdict(int)
+        self.sedges = defaultdict(str)
+        depth = 1
         stack = []
-
         stack.append(self.inistate)
         self.visited["".join(self.inistate)] = 1
-
         ordered = ['a','b','c','d','e','f','g','h','i']
         while stack:
             currentstate = stack.pop() #Only difference with bfs
             # swith is wrong...
             for nextstate in switch1(currentstate):
                 snxt = "".join(nextstate)
-                if self.visited[snxt] == 0:
+                scru = "".join(currentstate)
+                if self.visited[snxt] == 0 and self.visited[scru] < n:
 
-                    print("hi")
+                    print(depth)
                     print(snxt)
                     stack.append(nextstate)
-                    self.visited[snxt] = 1
-                    self.sedges[snxt] = "".join(currentstate)
+                    self.visited[snxt] = self.visited[scru]+1
+                    self.sedges[snxt] = scru
+                    depth = self.visited[snxt]
                     if issamelist(ordered,nextstate):
-                        return self.showsteps(nextstate)
+                        self.showsteps(nextstate)
+                        return True
 
-        return print(ordered)
+        return False
 
     def showsteps(self, state):
         step = 0
@@ -107,15 +110,22 @@ class Graph:
         while issamelist(parentstate,self.inistate)==False:
             succ = self.sedges["".join(parentstate)]
             parentstate = succ
+            print(stateasint(succ))
             step = step + 1
         return print(step)
-            # print(self.edges)
+            #print(self.edges)
             # pasttake = self.edges[pasttake]
+    def ids(self):
+        found = False
+        n = 1
+        while found == False:
+            found = self.lds(n)
+            n = n+1
 
 
 
 
 node2 = [7,2,4,5,0,6,8,3,1]
-g = Graph(inttostring(node2))
-print(inttostring(node2))
-g.dfs()
+g = Graph(inttostate(node2))
+print(inttostate(node2))
+g.ids()
