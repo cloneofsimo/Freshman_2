@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  18 SEP 2019 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  24 SEP 2019 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -414,24 +414,24 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `POM_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 17.
  (c:/texlive/2019/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
 \AtBeginShipoutBox=\box48
  (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -487,29 +487,29 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (1.74977pt too wide) in paragraph at lines 27--28
+Overfull \hbox (1.74977pt too wide) in paragraph at lines 29--30
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
 (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
- (./figures/BCG.pdf_tex
-<./figures/BCG.pdf, id=4, page=1, 446.70827pt x 287.37285pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+ [1
+
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./figures/BCG.pdf_tex
+<./figures/BCG.pdf, id=13, page=1, 446.70827pt x 287.37285pt>
 File: ./figures/BCG.pdf Graphic file (type pdf)
 <use ./figures/BCG.pdf, page 1>
 Package pdftex.def Info: ./figures/BCG.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 390.0pt x 250.90248pt.
-) [1
-
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/BCG.pdf>] [3] [4] [5] [6]
+) [2 <./figures/BCG.pdf>] [3] [4] [5] [6]
 <img/picawine.png, id=31, 293.095pt x 293.095pt>
 File: img/picawine.png Graphic file (type png)
 <use img/picawine.png>
-Package pdftex.def Info: img/picawine.png  used on input line 254.
+Package pdftex.def Info: img/picawine.png  used on input line 266.
 (pdftex.def)             Requested size: 370.49881pt x 370.49573pt.
  [7] (./figures/consumerMotivation.pdf_tex
 <./figures/consumerMotivation.pdf, id=37, page=1, 446.70827pt x 287.37285pt>
@@ -529,27 +529,14 @@ pdfTeX warning: pdflatex.exe (file ./figures/consumerMotivation.pdf): PDF inclus
 <img/soju.png, id=48, 192.72pt x 262.9825pt>
 File: img/soju.png Graphic file (type png)
 <use img/soju.png>
-Package pdftex.def Info: img/soju.png  used on input line 308.
+Package pdftex.def Info: img/soju.png  used on input line 320.
 (pdftex.def)             Requested size: 370.49881pt x 505.57472pt.
  [10] [11 <./img/soju.png>]
-Overfull \hbox (2.46945pt too wide) in paragraph at lines 319--320
+Overfull \hbox (2.46945pt too wide) in paragraph at lines 331--332
 []\OT1/cmr/m/n/12 Physiological vari-able $\OMS/cmsy/m/n/12 ! []$\OT1/cmr/m/n/12 Values, per-son-al-ity traits, mo-ti-va-tion, lifestyle 
  []
 
-[12] [13]
-./POM_3.tex:414: Misplaced alignment tab character &.
-<argument> How do you deal with that? Wedel &
-                                              Kamakura's
-l.414 ...o you deal with that? Wedel & Kamakura's}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-(./figures/mseapr.pdf_tex
+[12] [13] (./figures/mseapr.pdf_tex
 <./figures/mseapr.pdf, id=63, page=1, 446.70827pt x 287.37285pt>
 File: ./figures/mseapr.pdf Graphic file (type pdf)
 <use ./figures/mseapr.pdf, page 1>
@@ -564,29 +551,11 @@ Package pdftex.def Info: ./figures/mseapr.pdf , page2 used on input line 64.
 
 pdfTeX warning: pdflatex.exe (file ./figures/mseapr.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (4.34158pt too wide) in paragraph at lines 478--479
+Overfull \hbox (4.34158pt too wide) in paragraph at lines 490--491
 []\OT1/cmr/m/n/12 Structural con-di-tion (com-pe-ti-tion dif-fi-culty, threat of al-ter-na-tives, power
  []
 
-./POM_3.tex:507: Undefined control sequence.
-l.507 {\Huge \textf
-                   {Marketing Myopia}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[16]
-./POM_3.tex:531: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.531 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-(./figures/pmap.pdf_tex
+[16] (./figures/pmap.pdf_tex
 <./figures/pmap.pdf, id=79, page=1, 446.70827pt x 287.37285pt>
 File: ./figures/pmap.pdf Graphic file (type pdf)
 <use ./figures/pmap.pdf, page 1>
@@ -727,7 +696,7 @@ pdfTeX warning: pdflatex.exe (file ./figures/pmap.pdf): PDF inclusion: multiple 
 <img/mds.png, id=91, 1491.5725pt x 627.34375pt>
 File: img/mds.png Graphic file (type png)
 <use img/mds.png>
-Package pdftex.def Info: img/mds.png  used on input line 577.
+Package pdftex.def Info: img/mds.png  used on input line 589.
 (pdftex.def)             Requested size: 370.49881pt x 155.82086pt.
  (./figures/oqpp.pdf_tex
 <./figures/oqpp.pdf, id=92, page=1, 446.70827pt x 287.37285pt>
@@ -877,59 +846,105 @@ File: ./figures/plc.pdf Graphic file (type pdf)
 <use ./figures/plc.pdf, page 2>
 Package pdftex.def Info: ./figures/plc.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 390.0pt x 250.90248pt.
-) [22]
-./POM_3.tex:688: Misplaced alignment tab character &.
-l.688 Entering Stage : Create AW &
-                                   trial
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./POM_3.tex:690: Misplaced alignment tab character &.
-l.690 Mature Stage: Max profit &
-                                 MS
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./POM_3.tex:702: Misplaced alignment tab character &.
-l.702 		\item Hard to predic "which stage" &
-                                             "how long"
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[23 <./figures/plc.pdf> <./figures/plc.pdf
+) [22] [23 <./figures/plc.pdf> <./figures/plc.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/plc.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./POM_3.aux)
+>] [24]
+./POM_3.tex:778: Misplaced alignment tab character &.
+l.778 	 \ra Constituted by product quality &
+                                             price. (i.e. New item is much b...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+
+ []
+
+./POM_3.tex:838: You can't use `macro parameter character #' in vertical mode.
+l.838 #
+       1 h 5min
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 867--868
+
+ []
+
+./POM_3.tex:869: Misplaced alignment tab character &.
+l.869 		\item R&
+                D
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:886: Undefined control sequence.
+l.886 	\luge
+             Make the chosen idea more specific.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[27]
+./POM_3.tex:933: Undefined control sequence.
+l.933 	 p = A_w \mul
+                     A_v \mul \sum B_c
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./POM_3.tex:933: Undefined control sequence.
+l.933 	 p = A_w \mul A_v \mul
+                              \sum B_c
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[28]
+LaTeX Font Info:    Try loading font information for LUC+uhcmj on input line 971.
+ (c:/texlive/2019/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
+File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
+) [29] (./POM_3.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13338 strings out of 492609
- 259356 string characters out of 6132819
+ 13386 strings out of 492609
+ 260117 string characters out of 6132819
  315543 words of memory out of 5000000
- 16927 multiletter control sequences out of 15000+600000
- 14324 words of font info for 51 fonts, out of 8000000 for 9000
+ 16953 multiletter control sequences out of 15000+600000
+ 20299 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,15n,73p,828b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7
-.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
-Output written on POM_3.pdf (23 pages, 1134955 bytes).
+ 54i,15n,73p,828b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmc8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/uhc/umj/umj02.pfb>
+Output written on POM_3.pdf (29 pages, 1892385 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 281 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
