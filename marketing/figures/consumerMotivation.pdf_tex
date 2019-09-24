@@ -54,12 +54,13 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{consumerMotivation.pdf}}%
-    \put(0.17796439,0.34548581){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}consumer's\\Motivation\end{tabular}}}}%
-    \put(0.66568868,0.34832968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Consumer\\judgments\end{tabular}}}}%
+    \put(0.17796439,0.34548581){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Consumer's\\Motivation\end{tabular}}}}%
+    \put(0.6605816,0.35854383){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Actual\\Consumer\\Behavior\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{consumerMotivation.pdf}}%
     \put(0.45731577,0.48285709){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ability\end{tabular}}}}%
     \put(0.41802196,0.15903351){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Opportunity\end{tabular}}}}%
     \put(0.58731201,0.58986552){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Knowledge\\Experience\\Money\end{tabular}}}}%
     \put(0.60191885,0.10718007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Time\\Cognitive resource\\Distraction\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{consumerMotivation.pdf}}%
   \end{picture}%
 \endgroup%

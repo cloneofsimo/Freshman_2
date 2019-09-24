@@ -54,11 +54,11 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{oqpp.pdf}}%
-    \put(0.6354805,0.49526667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}P_1\end{tabular}}}}%
+    \put(0.6354805,0.49526667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$P_1$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{oqpp.pdf}}%
-    \put(0.54270226,0.36248342){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}P_2\end{tabular}}}}%
+    \put(0.54270226,0.36248342){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$P_2$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{oqpp.pdf}}%
-    \put(0.31628918,0.19395009){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}P_3\end{tabular}}}}%
+    \put(0.31628918,0.19395009){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$P_3$\end{tabular}}}}%
     \put(0.4720545,0.54123022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Price\end{tabular}}}}%
     \put(0.81117151,0.33025657){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}High Quality\end{tabular}}}}%
     \put(0.6498434,1.30045445){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.58550243\unitlength}\raggedright \end{minipage}}}%

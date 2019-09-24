@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'marketingmanagement.pdf' (pdf, eps, ps)
+%% Accompanies image file 'basicmodel.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,14 +53,11 @@
   \begin{picture}(1,0.6433121)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{marketingmanagement.pdf}}%
-    \put(0.07405239,0.54560434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1. Plan\\Environment, situation analysis\\Setting Marketing Goal\\collecting Marketing stratagy \\\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{marketingmanagement.pdf}}%
-    \put(0.07405239,0.38047606){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2. Implementation\\Implementing organization, deposit,\\behavior...\\\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{marketingmanagement.pdf}}%
-    \put(0.07575474,0.20343134){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3. Evaluation\\Making indicators, Measurements\\Evaluations \\\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{marketingmanagement.pdf}}%
-    \put(0.81457617,0.45793317){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Market\\Research\\Monitoring\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{marketingmanagement.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{basicmodel.pdf}}%
+    \put(0.39097666,0.56118629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Market Attractiveness\end{tabular}}}}%
+    \put(0.65537376,0.24773099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Position in Competition \end{tabular}}}}%
+    \put(0.35558652,0.41457012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}A\end{tabular}}}}%
+    \put(0.68420911,0.46175691){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}B\end{tabular}}}}%
+    \put(0.36738322,0.16683921){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
   \end{picture}%
 \endgroup%

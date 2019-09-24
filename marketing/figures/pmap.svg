@@ -42,15 +42,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="287.40687"
-     inkscape:cy="254.98255"
+     inkscape:cx="203.31167"
+     inkscape:cy="153.9673"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2736"
-     inkscape:window-height="1699"
-     inkscape:window-x="-13"
-     inkscape:window-y="-13"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      width="157mm"
      fit-margin-top="2.7755576e-17"
@@ -101,7 +101,7 @@
          id="tspan839"
          x="105.17056"
          y="223.23361"
-         style="stroke-width:0.26458332">P_1</tspan></text>
+         style="stroke-width:0.26458332">$P_1$</tspan></text>
     <circle
        style="fill:#000000;fill-opacity:0.3243243;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.26499998, 2.11999989;stroke-dashoffset:0;stroke-opacity:1"
        id="path837-9"
@@ -118,7 +118,7 @@
          id="tspan858"
          x="97.28611"
          y="262.25494"
-         style="stroke-width:0.26458332">P_2</tspan></text>
+         style="stroke-width:0.26458332">$P_2$</tspan></text>
     <circle
        style="fill:#000000;fill-opacity:0.3243243;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.26499998, 2.11999989;stroke-dashoffset:0;stroke-opacity:1"
        id="path837-4"
@@ -135,7 +135,7 @@
          id="tspan868"
          x="47.039436"
          y="236.06255"
-         style="stroke-width:0.26458332">P_3</tspan></text>
+         style="stroke-width:0.26458332">$P_3$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"

@@ -73,15 +73,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="297.97769"
+     inkscape:cx="213.88249"
      inkscape:cy="208.53806"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2736"
-     inkscape:window-height="1699"
-     inkscape:window-x="-13"
-     inkscape:window-y="-13"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      width="157mm"
      fit-margin-top="2.7755576e-17"
@@ -130,28 +130,33 @@
          id="tspan833"
          x="27.940409"
          y="242.75873"
-         style="stroke-width:0.26458332">consumer's</tspan><tspan
+         style="stroke-width:0.26458332">Consumer's</tspan><tspan
          sodipodi:role="line"
          x="27.940409"
-         y="248.1032"
+         y="248.0504"
          style="stroke-width:0.26458332"
          id="tspan837">Motivation</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="104.51312"
-       y="242.31224"
+       x="103.71131"
+       y="240.70862"
        id="text841"><tspan
          sodipodi:role="line"
-         id="tspan839"
-         x="104.51312"
-         y="242.31224"
-         style="stroke-width:0.26458332">Consumer</tspan><tspan
-         sodipodi:role="line"
-         x="104.51312"
-         y="247.65671"
+         x="103.71131"
+         y="240.70862"
          style="stroke-width:0.26458332"
-         id="tspan843">judgments</tspan></text>
+         id="tspan843">Actual</tspan><tspan
+         sodipodi:role="line"
+         x="103.71131"
+         y="246.00029"
+         style="stroke-width:0.26458332"
+         id="tspan879">Consumer</tspan><tspan
+         sodipodi:role="line"
+         x="103.71131"
+         y="251.29195"
+         style="stroke-width:0.26458332"
+         id="tspan881">Behavior</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
        d="m 68.210522,244.3479 c 19.777945,0 19.777945,0 19.777945,0"
@@ -231,5 +236,19 @@
          y="290.86166"
          style="stroke-width:0.26458332"
          id="tspan1843">Distraction</tspan></text>
+    <rect
+       style="fill:#6e3030;fill-opacity:0.26213594;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect883"
+       width="25.79151"
+       height="10.690781"
+       x="64.946495"
+       y="214.54735" />
+    <rect
+       style="fill:#6e3030;fill-opacity:0.26213594;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect885"
+       width="31.67144"
+       height="8.15172"
+       x="62.674702"
+       y="266.79852" />
   </g>
 </svg>

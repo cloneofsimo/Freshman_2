@@ -1,9 +1,22 @@
 \title{POM}
-
+\author{Simo Ryu}
+\date{\today}
 \documentclass[12pt]{article}
 
 \newcommand{\ra}{$\rightarrow \text{ }$}
 \newcommand{\nii}{\noindent}
+\let\saveditemize=\itemize%
+\let\savedenditemize=\enditemize%
+\newcommand{\tb}{\textbf}
+\newcommand{\sk}{\smallskip}
+% \newenvironment{titemize}
+% {\begin{minipage}[t]{\textwidth}
+% \saveditemize
+% \itemsep0em
+% }
+% {\savedenditemize
+% \end{minipage}}
+\usepackage{array}
 \usepackage{import}
 \usepackage{xifthen}
 \usepackage{pdfpages}
@@ -15,8 +28,8 @@
 
 \setlength{\parindent}{0em}
 \begin{document}
-
 \maketitle
+\newpage
 
 \section{Introduction to Marketing}
 
@@ -30,6 +43,7 @@ As the word implies, it can be seen as "doing the market", or, trying to be bett
 \end{tcolorbox}
 
 That makes marketing to be seen as "Trading Obstacles Elimination Process". What kinds of obstacles are there? More specifically, what can bee seen as obstacle? Obstacle is anything that seperates from Producer and consumer(Under condition that, of course, consumer wants to consume and producer want to produce). It can be relabeled as "Distance obstacle factor". There are 4 main factors.
+
 \begin{itemize}
 	\item form
 	\item ownership
@@ -37,6 +51,7 @@ That makes marketing to be seen as "Trading Obstacles Elimination Process". What
 	\item time
 \end{itemize}
 The main task of marketing therefore can be seen as eliminating these factors. For this 4 possible following tasks can be stated.
+
 \begin{itemize}
 	\item Make product that consumer wants
 	\item Make it noticeable by people
@@ -44,31 +59,240 @@ The main task of marketing therefore can be seen as eliminating these factors. F
 	\item Keep the continual trading relationship.
 \end{itemize}
 To actually solve this task, we have \textbf{4P \& STP}. Also we wish to have
-an overall management system to sustain these tasks. This is called "Market Research Monitoring"
+an overall management system to sustain these tasks. This system is called "Market Research Monitoring"
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{marketingmanagement.pdf_tex}
+	\caption{Marketing Management Systen}
+	\label{fig:marketingmanagement}
+\end{figure}
+
+This system has key 4 noticeable character.
+\begin{enumerate}
+	\item Recursive Plan - Implementation - Evaluation (Non - Stop)
+	\item Not iterative, but parallelizable \& both - directive.
+	\item Continual monitoring \& improvising
+	\item Happens within brand/category level
+\end{enumerate}
+
+There are 3 main orientation in modern marketing. These are what direction of marketing should be :
+\begin{enumerate}
+	\item Customer orientation
+	\begin{itemize}
+		\item What do customer want?
+		\item How do they react?
+	\end{itemize}
+	\item Long - Term orientation
+	\begin{itemize}
+		\item Long term relationship with customers
+		\item Strategic brand management
+	\end{itemize}
+	\item Synergy orientation
+	\begin{itemize}
+		\item synergy within level of business strategies
+		\item synergy within Mix or mix elements
+	\end{itemize}
+\end{enumerate}
+
+throughout the history, there has been a lot of different marketing philosophies. These philosophies can be understood as Marketing concept. Here are main 3 of them.
+\begin{itemize}
+	\item Production oriented
+	\item Salesmanship oriented
+	\item Customer oriented
+\end{itemize}
 
 
-% \begin{figure}[H]
-% 	\centering
-% 	\def\svgwidth{\columnwidth}
-% 	\import{./figures/}{marketingmanagement.pdf_tex}
-% 	\caption{marketingmanagement}
-% 	\label{fig:marketingmanagement}
-% \end{figure}
+\section{Environmental Analysis \& Setting Marketing Goal}
 
 
+As we have already discussed, within our first step of marketing management system there are 3 main substeps.
+\begin{itemize}
+	\item Environmental \& Situational analysis
+	\item Setting marketing goal
+	\item Collecting marketing strategies (STP \& Mix)
+\end{itemize}
 
-C. SWOT analysis
+\subsection{Marketing Goal}
 
-1. Basic Model
+\begin{enumerate}
+	\item Financial Goal (Quantitative goal)
+	\begin{itemize}
+		\item Appearance goal (sales \& market share)
+		\begin{itemize}
+			\item \texttt{should we build? keep? shrink? shut off(demarketing)?}
+			\item type that pushes Growth goal
+		\end{itemize}
+		\item Net Profit goal (business profit)
+		\begin{itemize}
+			\item Reduce first cost?
+			\item Increase price?
+		\end{itemize}
+	\end{itemize}
+	\item Market Goal (more customer - oriented goal than previous one) (Quality goal)
+	\begin{itemize}
+		\item Increase Customer satisfaction
+		\item Increase brand value
+		\item Develop new item
+	\end{itemize}
+\end{enumerate}
 
-BCG Model
+Out of all these different goals, decideing what is necessary is dependent entirely on the situation of the business. Yet, one of the most frequent marketing goal is \textbf{Financial Goal}, and especially \textbf{Growth goal}. Growth goal can be differentiated into 4 areas, give by the chart.
 
-The Purpose of BCG matrix: Set the balance of Cash Flow.
+\begin{tabular}{ |c|c|c| }
+	\hline
+  	& Existing Market & New market \\ [2ex]
+	\hline
+	Existing Product & penetrate market & Develop market \\ [2ex]
+	\hline
+	New Product & Develop new product & Diversification \\ [2ex]
+	\hline
+\end{tabular}
+
+\subsection{Marketing Environment}
+If I were to do a business, you can consider the following two cases:
+\begin{enumerate}
+	\item Market is really good, but I'm really bad.
+	\item I am really good, but market is really bad.
+\end{enumerate}
+
+Which senario is better? If you think 1st one is better, you are \textbf{Industrial Structuralist}.
+According to Porter, there are 5 forces that will effect your business.
+\begin{enumerate}
+	\item Threat of New entrants
+	\item Threat of Substitutes
+	\item Power of customers
+	\item Power of suppliers
+	\item Competitive rivalry
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{img/porter5.png}
+	\caption{Porter's Five Forces}
+	\label{}
+\end{figure}
+
+In industrial structure view, you have your environment considered as an outside.
+\subsubsection{Outside Environment}
+\begin{enumerate}
+	\item Macro Environment
+	\begin{itemize}
+		\item Economy
+		\item Tech
+		\item Socio - culture
+		\item Politics
+		\item Law
+	\end{itemize}
+	\item Micro Environment
+	\begin{itemize}
+		\item Supply
+		\item Demand
+		\item Competition
+		\item Customer
+		\item Business relation
+	\end{itemize}
+\end{enumerate}
+
+Also you can stand in the position that how well you do in the market is more impactful than your environment. This is called \tb{Resource-Based View} . In this view, you can consider your environment as Inside view.
+\subsubsection{Inside Environment}
+\tb{Core competence}
+\begin{enumerate}
+	\item Condition of Core competence: (source of continual competition  frontier -position )
+	\begin{itemize}
+		\item Needs to be better than competitors
+		\item Needs to be difficult to follow.
+		\item Needs to be not - purchasable.
+		\item Can be implemented to a lot of different businesses
+	\end{itemize}
+	\item Types of Core competence:
+	\begin{itemize}
+		\item Form : production line, distribution line, etc...
+		\item Formless : Brand, data, formulas, etc...
+	\end{itemize}
+
+\end{enumerate}
+
+\tb{Inside situation}
+
+\begin{enumerate}
+	\item Business Successfulness
+	\begin{itemize}
+		\item Financial result (profit, cash flow, debt rate ...)
+		\item Market result (market share, customer's evaluation, brand power)
+	\end{itemize}
+	\item Distribution of usable resources
+	\item Prior strategy
+\end{enumerate}
+
+Now, when do we really do our environment analysis? Assume that Market goal was made in the spring, and evaluation is ought to be done at winter. What is the most appropriate time for Environmental analysis? \ra \tb{Always}. We collect and watch the data every time, so it can be used anytime.
+
+\smallskip
+
+What is important about theses analysis is the relative change rate. It is almost always about how stuff "change", not how stuff "is".
+
+
+\subsection{SWAT Analysis}
+
+Factors that engage with your business can be classified into 4 different parts
+
+\smallskip
+
+\begin{tabular}{|c|c|c|}
+	\hline
+	 & Positive Factor & Negative Factor \\ [2ex]
+	 \hline
+	 Inside Env & \tb{S}trength & \tb{W}eakness \\[2ex]
+	 \hline
+	 Outside Env & \tb{O}pportunity & \tb{T}hreat \\ [2ex]
+	 \hline
+
+\end{tabular}
+
+\smallskip
+
+Things to Consider about SWAT analysis:
+
+\begin{enumerate}
+	\item Collect, collect, collect DATA!
+	\item Don't just list and stop, think about their importance.
+	\item Make their CROSSSECTION
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{img/crosssection.png}
+	\caption{Crossection of SWOT analysis}
+	\label{}
+\end{figure}
+
+For example, OW represents how you would manage the opportunity despite your weakness.
+
+We talked about different types of Growth goal. Now it is time to think about more fundamental type of question: Will we grow this business at all? To answer this, we do a portfolio analysis.
+
+\subsection{Product Portfolio Analysis Model}
+
+\subsubsection{Basic Model}
+Basic model of portfolio analysis consists of two axis, both of which representing some kind of measure of performance that describes the business.
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{basicmodel.pdf_tex}
+	\caption{Basic Model}
+	\label{fig:basicmodel}
+\end{figure}
+
+\subsubsection{BCG}
+
+
+The Purpose of BCG model: Set the balance of Cash Flow.
 \begin{figure}[H]
 	\centering
 	\def\svgwidth{\columnwidth}
 	\import{./figures/}{BCG.pdf_tex}
-	\caption{BCG}
+	\caption{BCG model}
 	\label{fig:BCG Model}
 \end{figure}
 
@@ -83,41 +307,41 @@ Problem of BCG Model
   \item Don't consider any synergic possibilities.
 \end{itemize}
 
-1) X as "Position of competition" Y as "Attractiveness of Business"
-
-2) Define market within realm of SUB
-
-3) High - Medium - Low
+% 1) X as "Position of competition" Y as "Attractiveness of Business"
+%
+% 2) Define market within realm of SUB
+%
+% 3) High - Medium - Low
 
 %9월 11일
 
-\section{Marketing research}
 
-\subsection{Topics of Marketing research}
+\section{Marketing Research}
 
-1. Analyzing Situation
+\subsection{Marketing research Steps}
+
+1. Analyzing situation step
 \begin{itemize}
 	\item Changes in Inside, outside Environments
-	\item strength, weakness of our, opponent companies
+	\item Strength, weakness of our, opponent companies
 	\item catching opportunities/analyzing market character
 	\item analyzing consumers
 \end{itemize}
 
 2. Collecting strategies step
 \begin{itemize}
-	\item researching consumer's cognition
-	\item market test (concept, elasticity of price, predict demand)
-	\item
+	\item Researching consumer's recognition
+	\item Marketing test (concept, elasticity of price, prediction of demand, effectiveness of ad)
 \end{itemize}
 
-3. Strategies acquiring step
+3. Execute strategies step
 \begin{itemize}
-	\item add tracking
-	\item new product tracking (recognition, preference ... )
+	\item Ad tracking (ad acceptance rate, recognition rate, product recognition rate ...)
+	\item New product tracking (recognition, preference ... )
 \end{itemize}
 
 4. Evaluate step
-market share, mind share, brand equity, satisfaction
+market share, mind share, brand equity, satisfaction etc...
 
 
 
@@ -125,20 +349,20 @@ How do we get the data?
 \begin{enumerate}
 	\item Search for it (online, researches...)
 	\item Make them!
-	\item Buy them! (or let other make them)
+	\item Buy them! (or let others make them)
 \end{enumerate}
 
-\subsection{Marketing research process}
+\subsection{Marketing Research Process}
 
 \begin{enumerate}
 	\item Decide whether we need to research
-	\item Specify why we need to research (What are you trying to get by this research?)
-	\item type of Constructions of research
+	\item Specify why we need to research (specifically research for what?)
+	\item Types of research construction
 	\item Data Source (Do we make them? search for it? etc..)
 	\item How do we collect our data?
 	\item Extract samples and collect Data (what is our sample group? how? how many?)
-	\item Analysis of our data
-	\item Result and organize the product.
+	\item Analysis of our data (coding, correlational analysis, causal analysis...)
+	\item Organize the result.
 \end{enumerate}
 
 \subsubsection{Type of research construction}
@@ -166,18 +390,19 @@ How do we get the data?
 	\item Secondary Data
 	\begin{itemize}
 		\item Inside data (Business related data..)
+		\item Outside data (통계청, 국책연구소, 민간경제연구소, 상공회의소 등...)
 	\end{itemize}
 	\item Primary data
 	\begin{itemize}
-		\item survey, test
-		\item observation, ...
+		\item survey, test (Field, Laboratory, fMRI)
+		\item Observation and interview
 	\end{itemize}
 	\item New raw Data
 	\begin{itemize}
 		\item Purchase Data
 		\item clickstream Data
 		\item UCC, SNS Data
-		\item Big data (3V's)
+		\item Big data (3V's: volume, variety, velocity)
 	\end{itemize}
 \end{enumerate}
 
@@ -193,10 +418,10 @@ Despite all the research, why did so many people hate New coke?
 
 By doing fMRI study of brain, one can find out that while blind testing, VMPFC of brain was triggered, while drinking coke, DLPFC and Hippocampus was triggered.
 
-\subsubsection{Method of collecting Data}
+\subsubsection{Method of collecting Data (Survey)}
 
 \begin{enumerate}
-	\item collecting Method
+	\item Collecting Method
 	\begin{itemize}
 		\item face-to-face/or not
 		\item mail, phone
@@ -205,53 +430,80 @@ By doing fMRI study of brain, one can find out that while blind testing, VMPFC o
 	\end{itemize}
 	\item Sampling
 	\begin{itemize}
-		\item sampling frame
+		\item sampling frame (list of things you draw a sample from)
 		\item method of sampling (random sampling/easy sampling)
 		\item sampling size
 	\end{itemize}
 \end{enumerate}
 
+\subsubsection{Research Analysis}
+
+\begin{enumerate}
+	\item Statistical Analysis
+	\begin{itemize}
+		\item univariable analysis
+		\item multivariable analysis
+		\item non - parametric analysis
+	\end{itemize}
+	\item Analyzing meaning
+	\begin{itemize}
+		\item correlational
+		\item Causal
+	\end{itemize}
+\end{enumerate}
 
 \section{Consumer Behavior Analysis}
-\subsection{consumer behavior analysis tool}
-1. Understanding consumer
+\subsection{Frame of Consumer behavior analysis}
+1. Understanding consumer's Perspective
 \begin{itemize}
-	\item who?
+	\item who? (who is our customer?)
 	\item what would they want?
-	\item How would they react?
+	\item How would they react? (to this product?)
 	\item why?
 \end{itemize}
 
-2. Decision making step
+For consumer, there are 5 steps that takes place per every purchasement.
+2. 5 Decision making steps
 \begin{enumerate}
 	\item facing the problem
 	\item searching for information
 	\item look for alternative
 	\item Buying the product
-	\item Action after buying product (usage and feedback)
-
+	\item Action after purchase (usage and feedback)
 \end{enumerate}
 
-who would face the problem? not exactly the one who uses. can be parent, related people... etc..
-Who would search for alternative? Thus, above order can be done by all separate people.
+Who would face the problem? Not necessarily the one who uses. They can be his/her parents, related people, friends, ... etc..
+
+In similar fashion, who would search for alternative? Who would actually purchase? Above steps can be done by all separate people.
 The 2. can be questioned by 1. therefore 20 questions can arise in total. However, the 1. can be much more descriptive.
 
-Personal traits can be influential to Decision steps. This can be,
+Personal traits can be influential to individual decision steps. This can be,
 \begin{itemize}
 	\item Memory
 	\item attitude.
 	\item etc...
 \end{itemize}
 
-\subsection{Consumer Behavior's general characteristic}
+Moreover environmental traits can be also influential. This can be:
+\begin{itemize}
+	\item Demographical statistic
+	\item Economic situation
+	\item Socio - cultural
+	\item Technological env.
+	\item Law - related env.
+\end{itemize}
 
-However, every consumer is human, therefore behaves in very "generalizable" way. It is natural to think that people behave in calculative, rational way. But this turned out to be very wrong.
+Therefore theses factors play great role on understanding consumer's behaviors.
+
+\subsection{General Characteristics of Consumer Behaviors}
+
+Every consumer is human, therefore behaves in very "generalizable" way. It is natural to think that people behave in calculative, rational way. But this turned out to be very wrong.
 
 \begin{enumerate}
 	\item Decision making method routinized
 	\begin{itemize}
-		\item Extensive problem solving (Searching for all possible solution)
-		\item Limited problem solving
+		\item Extensive problem solving (Searching for all possible info)
+		\item Limited problem solving (not thinking carefully)
 		\item Routinized behavior
 	\end{itemize}
 	\item Behaviors within relationships(Between other objective beings)
@@ -276,8 +528,9 @@ However, every consumer is human, therefore behaves in very "generalizable" way.
 		\item Non conscious behaviors (Done without conscious)
 	\end{itemize}
 \end{enumerate}
+
 Theses behaviors can be (in a way) predicted by marketers, making marketing process much efficient.
-How many of us make un-rational decisions? about 80\%, says our professor.
+How many of us make un-rational decisions? about 80\%(says our professor).
 
 \begin{figure}[H]
 	\centering
@@ -299,17 +552,21 @@ How many of us make un-rational decisions? about 80\%, says our professor.
 
 \section{Segmentation and Targeting}
 
-How do we actually "Do" marketing?
+Now we collect strategies. We will start with STP. In this section, we will look at S and T.
 
 \subsection{Segmentation}
 
-definition: splitting the market into few 'segments'
+Definition: splitting the market into few 'segments', to be considered later.
+
+
 But do we really need market segmentation?
 
 \subsubsection{Necessity of Market Segmentation}
 
-First, the customers are very different. \ra You can be very precise to customer's needs
+First, the customers are very different. \ra You can be very precise to customer's needs.
+
 Also, the company has very limited resources. \ra You can choose and focus on one point.
+
 And finally, there are just too much competition.
 Segmenting makes different opportunities stand out
 very easily.
@@ -318,7 +575,7 @@ Plus, you can also act very quickly to changes.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\textwidth]{img/soju.png}
-	\caption{Target market : Easily enjoying liquor, for age 20 ~ 30, woman, lives in cities.}
+	\caption{Target market : Easily enjoying liquor, for age 20 \~30, woman, lives in cities.}
 	\label{soju}
 \end{figure}
 
@@ -328,11 +585,11 @@ Plus, you can also act very quickly to changes.
 \begin{itemize}
 	\item Geological variable \ra weather, pop density, areas
 	\item Demographic variable \ra age, gender, income level, educational, job
-	\item Physiological variable \ra Values, personality traits, motivation, lifestyle
+	\item Psychological variable \ra Values, personality traits, motivation, lifestyle
 	\item Behavioral variable \ra Pursuit of convenience , amount of usage, preferences, bargaining
 \end{itemize}
 
-\textbf{Geological, Populational-statistical Variable \\ (Demographic variable)}
+\textbf{Geological, Populational-statistical Variable (i.e. Demographic variable)}
 
 \begin{itemize}
 	\item Sometimes define the demand for entire category!! (weather, population, age, gender, income level)
@@ -350,14 +607,18 @@ Plus, you can also act very quickly to changes.
 
 \end{tcolorbox}
 
-\textbf{Physiological Variable:}
+\textbf{Psychological Variable}
 \begin{itemize}
 	\item Effects almost every aspect of consumer's behavior (values, personality traits, lifestyle etc...)
 	\item One of the Customer's profile's elements : \ra Appealing methods (How do we invoke consumer's motivation to buy?)
 \end{itemize}
 \textbf{Question: How do you segment market by personal values?}
 
-\subsubsection{LOV Segmentation}
+\sk
+
+{\large \textit{LOV Segmentation}}
+
+\sk
 
 1. Main Value measurement
 \begin{itemize}
@@ -365,13 +626,13 @@ Plus, you can also act very quickly to changes.
 	\item List of value (LOV) (9 value items)
 
 \end{itemize}
-\nii
+
 2. Rounding off by main values \ra \textbf{Factor analysis}
-\nii
+
 3.Making Segments \ra \textbf{Clustering analysis}
 
 \begin{tcolorbox}
-	How do you exactly make factor analysis?
+	Question: How do you exactly do factor analysis?
 	% 자긍, 자아실현, 성취 존경 : factor 1
 	% 존겨으 재미, 흥 : factor 2
 	% 안저으 소속, 대인관계: factor 3
@@ -387,17 +648,23 @@ After factor analysis, you make clustering by looking at the data.
 % 	\label{fig:clustering}
 % \end{figure}
 
-Behavioral Variable
+\sk
+
+\textbf{Behavioral Variable}
 
 \begin{itemize}
 	\item Craving product benefit
 	\item Heavy user/ Light user
 	\item Reaction Step: (recognition\ra knowledge \ra preferable \ra buying experience \ra recursive purchase)
+	Example :
 	if everyone likes it and nobody buys it, there must be purchase obstacle.
+
 	if nobody knows it, must let them know first.
+
 	if everyone know it but nobody likes it, change their attitude.
+
 	etc etc...
-	\item price sensitivity
+	\item Price sensitivity
 	\item Usage situation: ( Where do people use our product?)
 	\item Accepting innovative product (Would they buy beta version?)
 
@@ -413,31 +680,35 @@ Behavioral Variable
 \end{enumerate}
 
 \subsection{Effective Market Segmentation}
-{\large Effectiveness:::
+{\large Effectiveness:::}
 \begin{enumerate}
 	\item Measurable %What??
 	\item Accessible
-	\item Substantial (Segmented by 99 : 1 is just meaningless.)
-	\item Differentiable by segments (if stratagies amoung segemnst are equal, it is meaningless)
+	\item Substantial (Segmented by 99 : 1 is just meaningless. There has to be meaningfulness)
+	\item Differentiable by segments (if strategies among segments are equal, it is meaningless)
 \end{enumerate}
-}
+
 \ra Yet, \textbf{per variable, Effectiveness is different.} %어떤 변수는 이런 쪽에서 효율이 좋지만 이런 쪽에선 안좋음
 
 \subsubsection{How do you deal with that? Wedel \& Kamakura's}
+\begin{center}
+	\begin{tabular}{m{12em}|m{12em}|m{12em}|}
+		\hline
+		& General character variable & Prdouct related variable \\ [2ex]
+		\hline
+		Observable & Demographical & Usage, Use situ, Royalty \\ [2ex]
+		\hline
+		Non Observable & Per Trait, LOV, lifestyle & Preference, recognition of product \\ [2ex]
+		\hline
 
-% \begin{tabular}{c|cc}
-% 	\hline
-% 	& gneral character variable & Prdouct related variable \\
-% 	\hline
-%
-%
-% \end{tabular}
-%
-% \begin{tabular}{|c|c|c|c|c|}
-% 	\hline
-% 	 & G/O & G/NO & P/O & P/NO \\
-%
-% \end{tabular}
+\end{tabular}
+\end{center}
+
+\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	 & G/O & G/NO & P/O & P/NO \\
+
+\end{tabular}
 
 {\large Then what??}
 
@@ -452,7 +723,8 @@ Behavioral Variable
 \begin{enumerate}
 	\item Collect Data
 	\item Measure variable by marketing search
-	\item %%search later
+	\item Segment by actionable variable
+	\item Make Profile for each segmented market.
 \end{enumerate}
 
 
@@ -466,8 +738,8 @@ Behavioral Variable
 
 \subsection{Time variant Segmentation}
 
-How do you segment markets? Well, after fully knowing the method, you still don't know what will come out as an result, nor what is really efficient.
-Knowing certain stuff beforehand can be described as \textbf{a priori segmentation}, other is \textbf{a posterirer segmentation}
+How do you segment markets real- time? Well, after fully knowing the method, you still don't know what will come out as an result, nor what is really efficient.
+Knowing certain stuff beforehand can be described as \textbf{a priori segmentation}, other is \textbf{a posterior segmentation}
 \begin{figure}[H]
 	\centering
 	\def\svgwidth{\columnwidth}
@@ -475,71 +747,83 @@ Knowing certain stuff beforehand can be described as \textbf{a priori segmentati
 	\caption{Different segment}
 	\label{fig:mseapr}
 \end{figure}
-For example LOV, you knew how you choose the segmenting method, but you didn't know the result. The result of 4 factor can be considerd as a posterirer.
+For example LOV, you knew how you choose the segmenting method, but you didn't know the result. The result of 4 factor can be considered as a posterior.
 
 
 \section{Targeting}
 
 Ok. you've segmented the market. (that was hard) Now you have to choose what part of segemtn you are going to be engaging in.
 
-\subsection{Target segment's decision standard}
+\subsection{Standards for Target segment's Decision}
 
-\subsubsection{Segment's attractiveness}
+\tb{1. Segment's attractiveness}
 \begin{itemize}
 	\item Outside conditions (market size, potential, growth rate, product's life cycle, seasonal)
 	\item Structural condition (competition difficulty, threat of alternatives, power of buyer/producer, Wall of entrance(진입장벽))
 	\item Environmental condition (Economy, society, ...)
 \end{itemize}
-\subsubsection{Relative competitive position within the segment}
 
+\sk
+
+\tb{2. Relative competitive position within the segment}
+
+How well will your company do when you enter the segment? To answer this, you need to know how much strength you have (competence) against others, for these following example categories:
 \begin{itemize}
-	\item %차별화 우위
-	\item %item
+	\item differentiated strength?
+	\item Price strength?
+	\item Operative strength?
 \end{itemize}
-{\large The way "competition" is defined can be various}
-\nii
+
+{\large The way "competition" is defined can be varied by level}
+
+
 \begin{itemize}
 	\item By brand (e.g: Digital Camera 1 vs Digital Camera 2)
 	\item Form of product {e.g: Digital Camera vs DSLR vs Mirrorless}
 	\item Fundamental convenience (e.g: D.c vs Phone)
 \end{itemize}
-\nii
-Ask first brand's most risky competitor
+
+\textit{Example: Asking frontier brand's most fearful competitor}
 
 \begin{tcolorbox}
 	\begin{itemize}
-		\item chmisul \ra samsung TV
-		\item Liniage \ra America Drama
+		\item chamisul \ra samsung TV
+		\item Lineage \ra America Drama
 		\item sulwhasu \ra Korean medic
 		\item Bakcas \ra Starbucks
 		\item Nike \ra Nintendo
 	\end{itemize}
 \end{tcolorbox}
 
-{\Huge \textbf{Marketing Myopia}}
-\ra look at market from far direction. ( Would above competition make sense?)
-he Fundamental values can be given by much different product.
-\subsubsection{Compatibility}
+\begin{center}
+	{\Large \textbf{Marketing Myopia}}
+	\ra look at the market from long distance. ( would above competition make sense?)
+	the fundamental values can be provided by much different product. Therefore beware of not - knowing your place or your competitors.
+\end{center}
+
+\tb{3. Compatibility}
+
 with...
 \begin{itemize}
 	\item company resources
-	\item company's mission/culture
+	\item company's mission \& culture
 	\item existing market, existing marketing mix.
 \end{itemize}
 
-Target market can be
+Now all these standards can be calculated and weighted - summed, so one can decide which market segments to enter.
+
+Then, Target market can be treated
 \begin{itemize}
-	\item differentiated into one or more segments.
-	\item treated as same or different
+	\item as differentiated into one or more segments.
+	\item or treated as same or different
 \end{itemize}
 
-\subsection{Treating differnt: How much?}
-\begin{itemize}
-	\item
-\end{itemize}
+\subsection{Treating different: How much?}
+The more you differentiate your treatment to targeted market, the more you'll earn, but also more you'll investigate. Therefore one has to find the right balance.
+
 
 \section{Postitioning}
-Definition: finding postition inside consumer's \textbf{mind}
+Definition: finding position inside consumer's \textbf{mind}
 
 \begin{itemize}
 	\item competitive differentiation consumer perceive
@@ -614,7 +898,8 @@ Ask customer's their measure of similarity of different products.
 \end{itemize}
 {\large Many time, positioning is done with specific property POD}
 
-But sometimes, user specific POD is done. (풀무원:(환경친화적인 당신은) 이미 풀무원입니다)
+But sometimes, user specific POD is made.
+(풀무원:(환경친화적인 당신은) 이미 풀무원입니다)
 
 \subsection{Efficient POD condition}
 \begin{enumerate}
@@ -775,7 +1060,7 @@ By the quality of improvement by new product, we can classify the new product 's
 	\end{itemize}
 	 \item Product Variants / Improvement (Just improving a bit)
 	 \item Product lineup (What do you mean by lineup?) \\
-	 \ra Constituted by product quality & price. (i.e. New item is much better and expensive. This is different by case 1)
+	 \ra Constituted by product quality \& price. (i.e. New item is much better and expensive. This is different by case 1)
 	 \item New Product - New line /Category (\textbf{new} is to be taken relative to myself.) \\
 	 \begin{itemize}
 	 	\item Continuous innovation
@@ -835,7 +1120,7 @@ By the quality of improvement by new product, we can classify the new product 's
 \textbf{importance of pioneer}
 
 \subsection{Why would some New product fail?}
-#1 h 5min
+%1 h 5min
 \begin{itemize}
 	\item Null of differentiated convenience
 	\item Change of consumer's utility
@@ -866,7 +1151,7 @@ Where do we get the idea?
 	\item Competitor
 	\item Inside community \\
 	\begin{itemize}
-		\item R&D
+		\item R\&D
 		\item Idea Team
 		\item Idea institution
 	\end{itemize}
@@ -883,7 +1168,7 @@ How do we make the data?
 \end{itemize}
 
 \begin{center}{
-	\luge Make the chosen idea more specific.
+	\large Make the chosen idea more specific.
 	\ra Product Concept
 	}
 
@@ -930,7 +1215,7 @@ at NPD's beginning Step, everybody's perticipation is important!
 	\item Transforming "purchase intension" / preference chart
 	\item Making selling formation model (46 min 판매형성 모형)
 	\[
-	 p = A_w \mul A_v \mul \sum B_c
+	 p = A_w A_v \sum B_c
 	\]
 \end{enumerate}
 \begin{enumerate}
