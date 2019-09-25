@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'plc.pdf' (pdf, eps, ps)
+%% Accompanies image file 'npdman.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,11 +53,14 @@
   \begin{picture}(1,0.6433121)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{plc.pdf}}%
-    \put(0.7716011,0.18537699){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Profit\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{plc.pdf}}%
-    \put(0.76317485,0.13843065){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Time\end{tabular}}}}%
-    \put(0.18718248,0.46223838){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\$\end{tabular}}}}%
-    \put(0.77099925,0.34246573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sales\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{npdman.pdf}}%
+    \put(0.11916476,0.51581316){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP Idea\end{tabular}}}}%
+    \put(0.11916476,0.41321646){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP concept\end{tabular}}}}%
+    \put(0.11916476,0.30472132){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP dev\end{tabular}}}}%
+    \put(0.11916476,0.20168348){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP production\end{tabular}}}}%
+    \put(0.11916476,0.09362948){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Release NP\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{npdman.pdf}}%
+    \put(0.71117304,0.46344218){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Support/Ev System\end{tabular}}}}%
+    \put(0.7364517,0.37749467){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}* Concept Test\\\\* Design Test\\\\* Market Test\end{tabular}}}}%
   \end{picture}%
 \endgroup%
