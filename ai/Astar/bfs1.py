@@ -80,6 +80,10 @@ class Graph:
 
         queue = []
 
+        time = 0
+        space = 0
+        maxEffFront = 1
+
         queue.append(self.inistate)
         self.visited["".join(self.inistate)] = 1
 
@@ -90,14 +94,18 @@ class Graph:
             for nextstate in switch1(currentstate):
                 snxt = "".join(nextstate)
                 if self.visited[snxt] == 0:
-
-                    print("hi")
-                    print(snxt)
+                    time = time + 1
                     queue.append(nextstate)
                     self.visited[snxt] = 1
                     self.edges.append((nextstate,currentstate))
                     if issamelist(ordered,nextstate):
-                        return self.showsteps(nextstate)
+                        self.showsteps(nextstate)
+                        space = len(self.visited)
+                        maxEffFront = (2*(space -2) - len(queue))/(space - len(queue))
+                        st = "time:" + repr(time)+ "\nspace:"+ repr(space) + "\n"+"maxEffFront:"+repr(maxEffFront)
+                        print(st)
+                        return True
+
 
         return print(ordered)
 
@@ -119,6 +127,7 @@ class Graph:
 
 
 
-node2 = [1,2,0,4,5,3,6,7,8]
+node2 = [7,2,4,5,0,6,8,3,1]
+
 g = Graph(inttostring(node2))
 g.bfs()

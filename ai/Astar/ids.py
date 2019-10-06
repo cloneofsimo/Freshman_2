@@ -1,16 +1,5 @@
 from collections import defaultdict
 
-# def convert(list):
-#
-#     # Converting integer list to string list
-#     s = [str(i) for i in list]
-#
-#     # Join list items using join()
-#     res = int("".join(s))
-#
-#     return(res)
-
-# Driver code
 def stateasint(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
@@ -72,13 +61,18 @@ def switch1(vector):
 
 class Graph:
     def __init__(self,inistate):
+        self.time = 0
         self.inistate = inistate
         self.visited = defaultdict(int)
         self.sedges = defaultdict(str)
-    def lds(self,n):
+    def lds(self,n): #Limited Depath Search
+        #Reinitialize visited, succesor edges
         self.visited = defaultdict(int)
         self.sedges = defaultdict(str)
         depth = 1
+
+        space = 0
+        maxEffFront = 1
         stack = []
         stack.append(self.inistate)
         self.visited["".join(self.inistate)] = 1
@@ -90,15 +84,19 @@ class Graph:
                 snxt = "".join(nextstate)
                 scru = "".join(currentstate)
                 if self.visited[snxt] == 0 and self.visited[scru] < n:
+                    self.time = self.time +1
 
-                    print(depth)
-                    print(snxt)
                     stack.append(nextstate)
                     self.visited[snxt] = self.visited[scru]+1
                     self.sedges[snxt] = scru
                     depth = self.visited[snxt]
+
                     if issamelist(ordered,nextstate):
                         self.showsteps(nextstate)
+                        space = len(self.visited)
+                        maxEffFront = (2*(space -2) - len(stack))/(space - len(stack))
+                        st = "time:" + repr(self.time)+ "\nspace:"+ repr(space) + "\n"+"maxEffFront:"+repr(maxEffFront)
+                        print(st)
                         return True
 
         return False

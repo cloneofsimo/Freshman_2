@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 def stateasint(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
@@ -29,12 +28,6 @@ def swap(vect, i, j):
     vect[i] = vect[j]
     vect[j] = temp
     return vect
-
-def isarrinarr(item,array):
-    for x in array:
-        if issamelist(item,x):
-            return True
-    return False
 
 def switch1(vector):
     list = []
@@ -80,11 +73,14 @@ def h1(vector):
 class Graph:
     def __init__(self,inistate):
         self.inistate = inistate
-    def lds(self):
+    def astar(self):
         self.visited = defaultdict(int)
         self.sedges = defaultdict(str)
         priory = defaultdict(int)
         depth = 1
+        time = 0
+        space = 0
+        maxEffFront = 1
         stack = []
         stack.append(self.inistate)
         inistr="".join(self.inistate)
@@ -95,21 +91,27 @@ class Graph:
         while stack:
             cs = min(priory.keys(), key=(lambda k: priory[k]))
             currentstate = list(cs)
-            del priory[cs]
+            del priory[cs] #Delete currentstate
             for nextstate in switch1(currentstate):
                 snxt = "".join(nextstate)
                 scru = "".join(currentstate)
+                time = time +1
                 if self.visited[snxt] == 0:
 
                     print(depth)
                     print(snxt)
-                    stack.append(nextstate)
+                    stack.append(nextstate) #Insert this state to priority Queue
                     self.visited[snxt] = self.visited[scru]+1
                     self.sedges[snxt] = scru
                     depth = self.visited[snxt]
-                    priory[snxt] = depth + h1(snxt)
+                    priory[snxt] = h1(snxt) + depth
+
                     if issamelist(ordered,nextstate):
                         self.showsteps(nextstate)
+                        space = len(self.visited)
+                        maxEffFront = (2*(space -2) - len(priory))/(space - len(priory))
+                        st = "time:" + repr(time)+ "\nspace:"+ repr(space) + "\n"+"maxEffFront:"+repr(maxEffFront)
+                        print(st)
                         return True
 
         return False
@@ -125,18 +127,8 @@ class Graph:
             step = step + 1
         return print(step)
 
-    def ids(self):
-        found = False
-        n = 1
-        while found == False:
-            found = self.lds(n)
-            n = n+1
-
-
-
-node1 = [1,2,0,4,5,3,6,7,8]
 node2 = [7,2,4,5,0,6,8,3,1]
-print(h1("badcefghi"))
+
 g = Graph(inttostate(node2))
-print(inttostate(node1))
-g.lds()
+
+g.astar()

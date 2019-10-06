@@ -1,16 +1,29 @@
 \title{DataStructure}
 
-\documentclass[9pt]{article}
+
+\documentclass[12pt]{article}
+\usepackage{setspace}
 \usepackage{import}
 \usepackage{xifthen}
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{float}
+\usepackage{tabularx,environ,amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem*{example}{Example}
+
+\newcommand{\vb}[1]{\verb|#1|}
 \begin{document}
+\maketitle
 \section{Stack}
 
-\maketitle
+
 This is a famous example of using STACK as a DataStructure, mainly, Evaluation of different expressions.
 
 \begin{itemize}
@@ -71,5 +84,55 @@ boolean IsEmpty(Queue *pQ){
 return()
 }
 \end{verbatim}
+
+
+
+
+
+
+
+
+
+
+
+\section{Binary Search Tree}
+
+Problem: Given $x$ and \vb{S[1,2,...,n]}, find an index $k$ such that \vb{S[k] = x}
+
+* An array \vb{S} has items in sorted order.
+
+Example code:
+
+\begin{verbatim}
+index bs(index low index high)
+{
+    index min;
+    if(low > high) return 0; //ending condition
+    else {
+    mid = (low + high) /2
+    if ( x == S[mid]) return mid;
+    else if (x < S[mid]) return bs[low,mid-1];
+    else return bs(mid+1 , high);
+    }
+}
+
+\end{verbatim}
+
+Time Complexity:
+\begin{itemize}
+  \item - worst case: \vb{x} does not exist.
+  \item recurrence relation with $n = 2^k$.
+
+  \begin{cases}
+    W(n) &= W(n/2) + a \\
+    W(1) &= a
+
+  \end{cases}
+\end{itemize}
+
+Proof that the binary tree search ends in $O(n)$ can be done with mathematical induction.
+
+
+
 
 \end{document}

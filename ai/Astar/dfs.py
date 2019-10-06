@@ -11,6 +11,14 @@ from collections import defaultdict
 #     return(res)
 
 # Driver code
+def stateasint(vect):
+    arr = []
+    alp = ['a','b','c','d','e','f','g','h','i']
+    for x in range(9):
+        for y in range(9):
+            if vect[x] == alp[y]:
+                arr.append(y)
+    return arr
 def printasinf(vect):
     arr = []
     alp = ['a','b','c','d','e','f','g','h','i']
@@ -78,7 +86,10 @@ class Graph:
     def dfs(self):
 
         stack = []
-
+        depth = 1
+        time = 0
+        space = 0
+        maxEffFront = 1
         stack.append(self.inistate)
         self.visited["".join(self.inistate)] = 1
 
@@ -88,15 +99,22 @@ class Graph:
             # swith is wrong...
             for nextstate in switch1(currentstate):
                 snxt = "".join(nextstate)
+                scru = "".join(currentstate)
                 if self.visited[snxt] == 0:
-
+                    time = time + 1
                     print("hi")
                     print(snxt)
                     stack.append(nextstate)
                     self.visited[snxt] = 1
-                    self.sedges[snxt] = "".join(currentstate)
+                    self.sedges[snxt] = scru
                     if issamelist(ordered,nextstate):
-                        return self.showsteps(nextstate)
+                        self.showsteps(nextstate)
+                        space = len(self.visited)
+                        maxEffFront = (2*(space -2) - len(stack))/(space - len(stack))
+                        st = "time:" + repr(time)+ "\nspace:"+ repr(space) + "\n"+"maxEffFront:"+repr(maxEffFront)
+                        print(st)
+
+                        return True
 
         return print(ordered)
 
@@ -107,6 +125,7 @@ class Graph:
         while issamelist(parentstate,self.inistate)==False:
             succ = self.sedges["".join(parentstate)]
             parentstate = succ
+            print(stateasint(succ))
             step = step + 1
         return print(step)
             # print(self.edges)
