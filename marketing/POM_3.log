@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.30)  25 SEP 2019 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  23 OCT 2019 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -431,6 +431,30 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `POM_3.aux'.
 
@@ -770,26 +794,618 @@ Underfull \hbox (badness 10000) in paragraph at lines 1233--1234
 [39 <./figures/npdman.pdf> <./figures/npdman.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/npdman.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [40] [41] [42] (./POM_3.aux)
+>] [40] [41] (./figures/smoke.pdf_tex
+<./figures/smoke.pdf, id=250, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/smoke.pdf Graphic file (type pdf)
+<use ./figures/smoke.pdf, page 1>
+Package pdftex.def Info: ./figures/smoke.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/smoke.pdf, id=251, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/smoke.pdf Graphic file (type pdf)
+<use ./figures/smoke.pdf, page 2>
+Package pdftex.def Info: ./figures/smoke.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+) [42]
+./POM_3.tex:1381: Misplaced alignment tab character &.
+l.1381 	\item M&
+                A, there is brand possession.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1384: Misplaced alignment tab character &.
+<argument> Brand is equity &
+                             asset!
+l.1384 \ra \tb{Brand is equity & asset!}
+                                        .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<img/brandvalue.png, id=263, 1133.23375pt x 1074.0125pt>
+File: img/brandvalue.png Graphic file (type png)
+<use img/brandvalue.png>
+Package pdftex.def Info: img/brandvalue.png  used on input line 1389.
+(pdftex.def)             Requested size: 370.49881pt x 351.13121pt.
+[43 <./figures/smoke.pdf> <./figures/smoke.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/smoke.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [44 <./img/brandvalue.png>]
+./POM_3.tex:1422: Misplaced alignment tab character &.
+l.1422 	assistance recall &
+                            unassisted recall (보조, 비보조 회상)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[45] [46] (./figures/pulmu.pdf_tex
+<./figures/pulmu.pdf, id=283, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/pulmu.pdf Graphic file (type pdf)
+<use ./figures/pulmu.pdf, page 1>
+Package pdftex.def Info: ./figures/pulmu.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/pulmu.pdf, id=284, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/pulmu.pdf Graphic file (type pdf)
+<use ./figures/pulmu.pdf, page 2>
+Package pdftex.def Info: ./figures/pulmu.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+
+./figures/pulmu.pdf_tex:60: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.60 ...d Taste\\\\Young & Exiting\end{tabular}}}}
+                                                  %
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+) [47] [48 <./figures/pulmu.pdf> <./figures/pulmu.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/pulmu.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<img/ty.png, id=295, 1531.7225pt x 1340.00626pt>
+File: img/ty.png Graphic file (type png)
+<use img/ty.png>
+Package pdftex.def Info: img/ty.png  used on input line 1603.
+(pdftex.def)             Requested size: 370.49881pt x 324.12303pt.
+ [49] [50 <./img/ty.png>]
+./POM_3.tex:1656: Misplaced alignment tab character &.
+l.1656 Purpose: Make brand equity stronger &
+                                             make brand grow.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1672: Misplaced alignment tab character &.
+l.1672 		\item Pleasing &
+                          enhancing & enabling self
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1672: Misplaced alignment tab character &.
+l.1672 		\item Pleasing & enhancing &
+                                      enabling self
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[51] [52]
+./POM_3.tex:1759: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1759 1. 기업브랜드 &
+                            현대 & 오리온 & 삼성 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1759: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1759 1. 기업브랜드 & 현대 &
+                                     오리온 & 삼성 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1759: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1759 1. 기업브랜드 & 현대 & 오리온 &
+                                                 삼성 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1760
+
+ []
+
+./POM_3.tex:1761: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1761 2. 가족 브랜드 &
+                                 & 닥터유 & \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1761: Misplaced alignment tab character &.
+l.1761 2. 가족 브랜드 &     &
+                                   닥터유 & \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1761: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1761 2. 가족 브랜드 &     & 닥터유 &
+                                               \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1761--1762
+
+ []
+
+./POM_3.tex:1763: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1763 3. 개별 브랜드 &
+                             그랜져 & 오뜨, 정 & Zipel \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1763: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1763 3. 개별 브랜드 & 그랜져 &
+                                         오뜨, 정 & Zipel \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1763: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1763 ...�� 브랜드 & 그랜져 & 오뜨, 정 &
+                                                   Zipel \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+
+ []
+
+./POM_3.tex:1765: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.1765 4. 수식 브랜드 &
+                             XG & (제품군) & 아삭 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1765: Misplaced alignment tab character &.
+l.1765 4. 수식 브랜드 & XG &
+                                  (제품군) & 아삭 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./POM_3.tex:1765: Misplaced alignment tab character &.
+l.1765 4. 수식 브랜드 & XG & (제품군) &
+                                                아삭 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1766
+
+ []
+
+./POM_3.tex:1777: Misplaced alignment tab character &.
+l.1777 	\item immediate effect &
+                                 high elasticity
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[53]
+./POM_3.tex:1779: Misplaced alignment tab character &.
+l.1779 	\item Preparation &
+                            execution is low - price.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+(./figures/facp.pdf_tex
+<./figures/facp.pdf, id=316, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/facp.pdf Graphic file (type pdf)
+<use ./figures/facp.pdf, page 1>
+Package pdftex.def Info: ./figures/facp.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/facp.pdf, id=317, page=2, 446.70827pt x 287.37285pt>
+File: ./figures/facp.pdf Graphic file (type pdf)
+<use ./figures/facp.pdf, page 2>
+Package pdftex.def Info: ./figures/facp.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/facp.pdf, id=318, page=3, 446.70827pt x 287.37285pt>
+File: ./figures/facp.pdf Graphic file (type pdf)
+<use ./figures/facp.pdf, page 3>
+Package pdftex.def Info: ./figures/facp.pdf , page3 used on input line 60.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/facp.pdf, id=319, page=4, 446.70827pt x 287.37285pt>
+File: ./figures/facp.pdf Graphic file (type pdf)
+<use ./figures/facp.pdf, page 4>
+Package pdftex.def Info: ./figures/facp.pdf , page4 used on input line 62.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/facp.pdf, id=320, page=5, 446.70827pt x 287.37285pt>
+File: ./figures/facp.pdf Graphic file (type pdf)
+<use ./figures/facp.pdf, page 5>
+Package pdftex.def Info: ./figures/facp.pdf , page5 used on input line 64.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+<./figures/facp.pdf, id=321, page=6, 446.70827pt x 287.37285pt>
+File: ./figures/facp.pdf Graphic file (type pdf)
+<use ./figures/facp.pdf, page 6>
+Package pdftex.def Info: ./figures/facp.pdf , page6 used on input line 67.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+) [54] [55 <./figures/facp.pdf> <./figures/facp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/facp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/facp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/facp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/facp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/facp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/facp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/facp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/facp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/facp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (9.2098pt too wide) in paragraph at lines 1826--1827
+[]\OT1/cmr/m/n/12 Considering the profit first, then de-cid-ing on price to achieve
+ []
+
+./POM_3.tex:1884: Missing $ inserted.
+<inserted text> 
+                $
+l.1884 	TR = TC + \pi
+                      = TC + 150,000
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./POM_3.tex:1885: Missing $ inserted.
+<inserted text> 
+                $
+l.1885 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./POM_3.tex:1885: Missing } inserted.
+<inserted text> 
+                }
+l.1885 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./POM_3.tex:1885: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.1885 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[56]
+./POM_3.tex:1930: Missing $ inserted.
+<inserted text> 
+                $
+l.1930 ... = P(800 - 4P) = 880P -4P^2 -1016000 \ra
+                                                   P = \$110 $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./POM_3.tex:1931: LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1931 	\end{enumerate}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./POM_3.tex:1931: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1931 	\end{enumerate}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./POM_3.tex:1931: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1931 	\end{enumerate}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./POM_3.tex:1931: Missing $ inserted.
+<inserted text> 
+                $
+l.1931 	\end{enumerate}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[57] [58] (./figures/disprice.pdf_tex
+<./figures/disprice.pdf, id=341, page=1, 446.70827pt x 287.37285pt>
+File: ./figures/disprice.pdf Graphic file (type pdf)
+<use ./figures/disprice.pdf, page 1>
+Package pdftex.def Info: ./figures/disprice.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 250.90248pt.
+) [59 <./figures/disprice.pdf>] [60]
+LaTeX Font Info:    Try loading font information for LUC+uhcmj on input line 2068.
+ (c:/texlive/2019/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
+File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
+) [61]
+Overfull \hbox (2.36699pt too wide) in paragraph at lines 2104--2105
+[]\OT1/cmr/m/n/12 if pro-mo-tion's value in-crease $\OMS/cmsy/m/n/12 ! []$\OT1/cmr/m/n/12 outside cause in-crease $\OMS/cmsy/m/n/12 ! []$\OT1/cmr/m/n/12 attitude
+ []
+
+./POM_3.tex:2122: Misplaced alignment tab character &.
+l.2122 	\item Sales organization &
+                                   distributor's cooperation is IMPORTANT!
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<img/POM_3-d3e0b158.png, id=355, 1697.34125pt x 925.4575pt>
+File: img/POM_3-d3e0b158.png Graphic file (type png)
+<use img/POM_3-d3e0b158.png>
+Package pdftex.def Info: img/POM_3-d3e0b158.png  used on input line 2128.
+(pdftex.def)             Requested size: 370.49881pt x 202.00557pt.
+[62] [63 <./img/POM_3-d3e0b158.png>]
+<img/promotionSyn.png, id=364, 1454.43375pt x 646.415pt>
+File: img/promotionSyn.png Graphic file (type png)
+<use img/promotionSyn.png>
+Package pdftex.def Info: img/promotionSyn.png  used on input line 2187.
+(pdftex.def)             Requested size: 370.49881pt x 164.66103pt.
+ [64] [65 <./img/promotionSyn.png>]
+<img/POM_3-d3b007c3.png, id=373, 1455.4375pt x 395.4775pt>
+File: img/POM_3-d3b007c3.png Graphic file (type png)
+<use img/POM_3-d3b007c3.png>
+Package pdftex.def Info: img/POM_3-d3b007c3.png  used on input line 2268.
+(pdftex.def)             Requested size: 370.49881pt x 100.67343pt.
+ [66]
+Overfull \hbox (154.47122pt too wide) in paragraph at lines 2281--2282
+[]\OT1/cmr/m/n/12 But!! Salses de-pend on other fac-tors \OT1/cmr/bx/n/12 AS WELL AS AD!!   $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([])$ 
+ []
+
+[67 <./img/POM_3-d3b007c3.png>]
+Overfull \hbox (2.69205pt too wide) in paragraph at lines 2329--2330
+[]\OT1/cmr/m/n/12 explanation and ne-go-ti-aition (USP(Unique sell-ing point!$\OMS/cmsy/m/n/12 !
+ []
+
+[68] [69]
+./POM_3.tex:2424: Misplaced alignment tab character &.
+l.2424 ... Handling unfavorable rumors, stories, &
+                                                   events
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (1.5012pt too wide) in paragraph at lines 2431--2432
+[]\OT1/cmr/m/n/12 CSR (cor-po-ra-tions' so-cial re-spon-si-bil-ity) : do-na-tions, spon-sor-ships,
+ []
+
+[70]
+./POM_3.tex:2468: Misplaced alignment tab character &.
+l.2468 		\item To imporve corporate performance &
+                                                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<img/tabacoo.png, id=394, 1437.37pt x 494.84875pt>
+File: img/tabacoo.png Graphic file (type png)
+<use img/tabacoo.png>
+Package pdftex.def Info: img/tabacoo.png  used on input line 2491.
+(pdftex.def)             Requested size: 370.49881pt x 127.54767pt.
+[71]
+<img/ecofr.png, id=398, 1476.51625pt x 702.625pt>
+File: img/ecofr.png Graphic file (type png)
+<use img/ecofr.png>
+Package pdftex.def Info: img/ecofr.png  used on input line 2505.
+(pdftex.def)             Requested size: 370.49881pt x 176.29909pt.
+<img/nico.png, id=399, 1443.3925pt x 734.745pt>
+File: img/nico.png Graphic file (type png)
+<use img/nico.png>
+Package pdftex.def Info: img/nico.png  used on input line 2516.
+(pdftex.def)             Requested size: 370.49881pt x 188.59634pt.
+ [72 <./img/tabacoo.png> <./img/ecofr.png>] [73 <./img/nico.png>]
+./POM_3.tex:2566: Misplaced alignment tab character &.
+l.2566 ...r customer's executable process (e.g. P&
+                                                  G 56분 in 10/14)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (3.86948pt too wide) in paragraph at lines 2576--2577
+[]\OT1/cmr/m/n/12 commitment and open-ness (Needs to be con-tin-ual & need to SHOW
+ []
+
+[74]
+./POM_3.tex:2645: Misplaced alignment tab character &.
+l.2645 Control &
+                 investigation money balance!
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[75]
+./POM_3.tex:2665: Misplaced alignment tab character &.
+l.2665 Channel &
+                 롯데
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[76] [77]
+
+./POM_3.tex:2724: LaTeX Error: \begin{itemize} on input line 1502 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2724 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./POM_3.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 1502 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 13474 strings out of 492609
- 262214 string characters out of 6132818
- 316446 words of memory out of 5000000
- 17039 multiletter control sequences out of 15000+600000
- 17204 words of font info for 61 fonts, out of 8000000 for 9000
+ 13651 strings out of 492609
+ 265949 string characters out of 6132819
+ 316486 words of memory out of 5000000
+ 17163 multiletter control sequences out of 15000+600000
+ 26109 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,15n,73p,828b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/201
-9/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-cc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
-Output written on POM_3.pdf (42 pages, 1808197 bytes).
+ 54i,15n,73p,828b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><
+c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmb5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2019/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/uhc/umj/umj02.pfb>
+Output written on POM_3.pdf (77 pages, 4784828 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
+ 602 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 

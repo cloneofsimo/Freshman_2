@@ -58,5 +58,7 @@
     \put(0.60263319,0.03064237){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{pfex.pdf}}%
     \put(0.60093082,0.09022473){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{pfex.pdf}}%
+    \put(0.55666964,0.20513352){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}compute a\b\end{tabular}}}}%
   \end{picture}%
 \endgroup%
